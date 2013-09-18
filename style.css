@@ -1,0 +1,230 @@
+---
+layout: 
+title:  
+
+---
+
+/* -----------------------------------------
+   Equitable Webseite Design - copyright Judith Moosburner 2013
+----------------------------------------- */
+
+
+/* Override some defaults */
+{% include JB/setup %}
+
+html {
+  background-color: #eee;
+}
+
+body { 
+	background: #fff url({{ ASSET_PATH }}/images/background.png) no-repeat top center;
+/*	background-size:100% ;*/
+	font-family: "Oswald", "Lucida Grande", sans-serif;
+	color: #4D2E00;
+}
+
+/* Die Teaserboxen */
+.box {
+	padding: 20px 20px;  
+/*	background: #ffffff;*/
+	background:rgba(255,255,255,0.8);
+	
+/*    opacity: .8;
+    filter: alpha(opacity=80);
+    -moz-opacity: .8;*/
+
+  -webkit-border-radius: 5px 5px 5px 5px;
+     -moz-border-radius: 5px 5px 5px 5px;
+          border-radius: 5px 5px 5px 5px;
+
+}
+
+
+
+/* -----------------------------------------
+   Text
+----------------------------------------- */
+
+h1 {
+	font-family: 'Oswald Regular', "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #654B13;
+
+/*	font-weight: 100;
+	text-shadow: 1px 2px 2px 
+	rgba(0, 0, 0, 0.85);
+	
+	padding-left:10px;
+	text-transform: none;
+	
+	H1: Oswald regular 30 */
+}
+
+
+h2 {
+	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: #654B13;
+	
+}
+
+
+
+.nav h2 {
+	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: white;
+	
+}
+
+p {
+	font-family: 'Tahoma', "Lucida Grande", sans-serif;
+	font-size: 13px;
+	color: #816C40;
+	line-height: 1.1em 
+}
+
+.start p {
+	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #654B13;
+}
+
+
+.breadcrumps {
+	font-family: 'Tahoma', "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color:  #816C40;
+}
+
+
+/*
+a { color: #F18224; text-decoration: none; line-height: inherit; }
+*/
+
+a:hover {  text-decoration: underline; }
+
+/* #DF7921
+color: #FF8300; 
+*/
+
+
+/* -----------------------------------------
+   Elements
+----------------------------------------- */
+
+
+hr {
+	border: 0px;
+}
+
+
+/* -----------------------------------------
+   Navigation
+----------------------------------------- */
+
+
+/*Die Navi-Box:*/ 
+.nav-box {
+/*#654B13, alpha 75%, runde Ecken: 3px*/
+	
+	/*padding: 20px 20px;  */
+
+	background:rgba(101,75,19,0.75);
+	
+/*    opacity: .8;
+    filter: alpha(opacity=80);
+    -moz-opacity: .8;*/
+
+  -webkit-border-radius: 3px 3px 3px 3px;
+     -moz-border-radius: 3px 3px 3px 3px;
+          border-radius: 3px 3px 3px 3px;
+	
+}
+
+
+/* -----------------------------------------
+   Header and Footer
+----------------------------------------- */
+
+.logo {max-width: 180px; margin-bottom: -50px; margin-left: -18px;}
+
+header { 
+
+	padding-bottom: 645px; padding-top: 30px; margin-bottom:-620px;
+  /* background: url({{ ASSET_PATH }}/images/cut3.png) repeat-x ;*/
+  background: url({{ ASSET_PATH }}/images/background_falling.png) no-repeat;
+  background-position:80% 0%;
+  margin-left:20px; margin-right:20px;
+
+  min-height:80px;
+}
+
+header nav { 
+/*		display:none;*/
+margin-top: -36px; margin-bottom:-6px; margin-right:0px; }
+	
+header nav ul {  text-transform: uppercase; margin: 0 0 0 -40px; padding: 0; float: right; overflow: hidden; }
+header nav ul li { margin: 15px 0 0px 50px; padding: 0; display: block; float: left; position: relative; }
+header nav ul li:after { content: ""; display: block; width: 4px; height: 4px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;  position: absolute; top: 6px; right: -17px; }
+
+header nav ul li a { color:white;
+	font-family: 'Oswald Regular', "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+ }
+ 
+header nav ul li a:active { color:white; }
+header nav ul li a:hover {  color:white; }
+
+header nav ul li a > span {  margin-right: 2px; }
+header nav #activeSprite { position: absolute; width: 21px; height: 12px; background: url({{ ASSET_PATH }}/images/icons/active-nav.png) 0 0 no-repeat; display: block; }
+
+header nav ul.show-on-mobile { display:none }
+
+header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;
+}
+
+
+
+footer { 
+	 background-color: #654B13;
+
+	padding-top: 155px;
+
+	background: url({{ ASSET_PATH }}/images/background_footer-icons.png) 52% 90% repeat-x ; 
+
+
+}
+	
+footer p {
+		color:grey;
+}
+
+footer p strong {
+		color:white;
+}
+	
+footer .row { 
+/*		display:none;*/
+	margin-top: 20px; padding-top: 20px; padding-bottom: 20px;  margin-bottom: 50px; border-bottom: 0px solid #ddd; }
+
+footer h3 {
+	color:#EE7D31;
+
+	font-size: 14px;
+	font-weight: 600;
+/*	font-weight: bold */
+	text-transform: uppercase;
+}
+
+footer a {
+	color:#EE7D31;
+}
+
+
