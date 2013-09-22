@@ -25,6 +25,8 @@ body {
 
 /* Die Teaserboxen */
 .box {
+	font-family: Tahoma, Verdana, sans-serif;
+	line-height:1.2em;
 	padding: 20px 20px;  
 /*	background: #ffffff;*/
 	background:rgba(255,255,255,0.8);
@@ -36,6 +38,7 @@ body {
   -webkit-border-radius: 5px 5px 5px 5px;
      -moz-border-radius: 5px 5px 5px 5px;
           border-radius: 5px 5px 5px 5px;
+          
 
 }
 
@@ -90,8 +93,11 @@ p {
 .start p {
 	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 15px;
 	color: #654B13;
+	letter-spacing:0.02em;
+	line-height:1.2em;
+	text-shadow: 0 0 15px #ffffff;
 }
 
 
@@ -203,11 +209,11 @@ footer {
 }
 	
 footer p {
-		color:grey;
+		color:#ccccccc;
 }
 
 footer p strong {
-		color:white;
+		color:#cccccc;
 }
 	
 footer .row { 
