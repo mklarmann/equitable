@@ -75,13 +75,6 @@ h2 {
 
 
 
-.nav h2 {
-	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
-	font-weight: 300;
-	font-size: 13px;
-	color: white;
-	
-}
 
 p {
 	font-family: 'Tahoma', "Lucida Grande", sans-serif;
@@ -132,7 +125,13 @@ hr {
 /* -----------------------------------------
    Navigation
 ----------------------------------------- */
+header nav { 
+/*		display:none;*/
+margin-top: -36px; margin-bottom:-6px; margin-right:0px;
 
+
+
+ }
 
 /*Die Navi-Box:*/ 
 .nav-box {
@@ -152,6 +151,27 @@ hr {
 	
 }
 
+.sub-nav ul {
+	
+	
+	 
+	overflow: hidden;
+}
+
+.sub-nav ul li {
+	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: white;
+	text-transform: none;
+	float: none;
+	margin: 0px 0 0px 40px;
+}
+
+nav h1 {
+	margin: -15px 0 0px 0;
+	line-height:1.2em;
+}
 
 /* -----------------------------------------
    Header and Footer
@@ -163,22 +183,19 @@ header {
 
 	padding-bottom: 645px; padding-top: 30px; margin-bottom:-620px;
   /* background: url({{ ASSET_PATH }}/images/cut3.png) repeat-x ;*/
-  background: url({{ ASSET_PATH }}/images/background_falling.png) no-repeat;
-  background-position:80% 0%;
+/*  background: url({{ ASSET_PATH }}/images/background_falling.png) no-repeat;
+  background-position:80% 0%;*/
   margin-left:20px; margin-right:20px;
 
   min-height:80px;
 }
 
-header nav { 
-/*		display:none;*/
-margin-top: -36px; margin-bottom:-6px; margin-right:0px; }
-	
+
 header nav ul {  text-transform: uppercase; margin: 0 0 0 -40px; padding: 0; float: right; overflow: hidden; }
-header nav ul li { margin: 15px 0 0px 50px; padding: 0; display: block; float: left; position: relative; }
+header nav ul li { margin: 10px 15px 10px 10px; padding: 0; display: block; float: left; position: relative; }
 header nav ul li:after { content: ""; display: block; width: 4px; height: 4px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;  position: absolute; top: 6px; right: -17px; }
 
-header nav ul li a { color:white;
+header nav ul li a { 
 	font-family: 'Oswald Regular', "Oswald", "Lucida Grande", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -193,8 +210,7 @@ header nav #activeSprite { position: absolute; width: 21px; height: 12px; backgr
 
 header nav ul.show-on-mobile { display:none }
 
-header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;
-}
+header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;}
 
 
 
