@@ -90,7 +90,8 @@ p {
 	color: #654B13;
 	letter-spacing:0.02em;
 	line-height:1.2em;
-	text-shadow: 0 0 15px #ffffff;
+	text-shadow: 0 0 2px #ffffff;
+	/* 15px ist schwierig, weil es das blur ist, d.h. man sieht es nicht mehr */
 }
 
 
@@ -125,13 +126,7 @@ hr {
 /* -----------------------------------------
    Navigation
 ----------------------------------------- */
-header nav { 
-/*		display:none;*/
-margin-top: -36px; margin-bottom:-6px; margin-right:0px;
 
-
-
- }
 
 /*Die Navi-Box:*/ 
 .nav-box {
@@ -155,7 +150,7 @@ margin-top: -36px; margin-bottom:-6px; margin-right:0px;
 	
 	
 	 
-	overflow: hidden;
+
 }
 
 .sub-nav ul li {
@@ -165,11 +160,13 @@ margin-top: -36px; margin-bottom:-6px; margin-right:0px;
 	color: white;
 	text-transform: none;
 	float: none;
-	margin: 0px 0 0px 40px;
+	margin: 0px 10px 0px 0px;
+/*	width:100px;*/
+	overflow: hidden;
 }
 
 nav h1 {
-	margin: -15px 0 0px 0;
+	margin: -15px 0px 0px 0px;
 	line-height:1.2em;
 }
 
@@ -190,9 +187,16 @@ header {
   min-height:80px;
 }
 
+header nav { 
+/*		display:none;*/
+	margin-top: -36px; margin-bottom:-6px; margin-right:0px;
 
-header nav ul {  text-transform: uppercase; margin: 0 0 0 -40px; padding: 0; float: right; overflow: hidden; }
-header nav ul li { margin: 10px 15px 10px 10px; padding: 0; display: block; float: left; position: relative; }
+
+
+ }
+
+header nav ul {  text-transform: uppercase; margin: 0px; padding: 0; float: right; overflow: hidden; }
+header nav ul li { margin: 10px 10px 10px 10px; padding: 0; display: block; float: left; position: relative; }
 header nav ul li:after { content: ""; display: block; width: 4px; height: 4px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;  position: absolute; top: 6px; right: -17px; }
 
 header nav ul li a { 
