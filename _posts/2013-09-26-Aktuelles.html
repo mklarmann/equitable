@@ -1,0 +1,47 @@
+---
+layout: aktuelles
+title: News&Aktuelles
+folder: aktuelles
+---
+
+{% include JB/setup %}
+
+{% for item in site.categories[page.folder] limit:8 %}
+
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="well-non">
+				<a href="{{ BASE_PATH }}{{item.url}}">
+					<h2 style="padding-bottom: 0.2em;">{{item.title}}</h2>
+					<div class="recipe-info"><img class="about" src="{{ ASSET_PATH }}/images/icons/calendar.png" /><small>{{ item.date | date_to_string }}</small><img class="about" src="{{ ASSET_PATH }}/images/icons/author.png" /><small>{{ item.author }}</small></div>
+					{% if item.blog-image != null %}<img src="{{ ASSET_PATH }}/images/blog/teaser_1400x450/{{ item.blog-image }}" >{% endif %}<h3 style="padding-bottom: 0.2em;">{{item.subtitle}}</h3>
+				</a>			
+
+
+				<p>
+				{% if item.short == null %}
+					{{ item.content | strip_html | truncatewords: 42 }}
+				{% else %}
+					{{ item.short }}
+				{% endif %}
+				</p>
+
+				<!-- <a href="{{ BASE_PATH }}{{item.url}}#disqus_thread">Kommentare</a>. -->
+
+				<a href="{{ BASE_PATH }}{{item.url}}" class="pull-right btn btn-inverse btn-small">&nbsp;weiterlesen</a>
+
+				<div style="margin:auto" class="bottom-line"></div>
+				<!-- ul class="like-buttons">
+		            <li><div id="fb-root"></div>
+						<fb:like href="{{ BASE_PATH }}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
+						<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}{{item.url}}" >Twittern</a></li>
+						<li><g:plusone size="medium" annotation="inline" href="{{ BASE_PATH }}{{item.url}}"></g:plusone></li>
+				</ul -->
+
+			</div>
+
+
+		</div>
+
+	</div>
+{% endfor %}

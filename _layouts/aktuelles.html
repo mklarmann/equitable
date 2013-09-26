@@ -1,0 +1,57 @@
+---
+layout: page
+folder: aktuelles
+---
+
+{% include JB/setup %}
+
+
+
+
+<div class="row-fluid">
+	<div class="span8">
+	</div>
+</div>
+
+
+<!-- this is only for aktuelles -->
+<!-- Platzieren Sie diese Render-Anweisung an einer geeigneten Stelle. -->
+
+
+<div class="row-fluid">
+	<div class="span8">
+
+
+
+{{ content }}
+
+	</div>
+
+	<div class="span4">
+		<div class="well">
+
+
+
+
+			<p>Hier haben wir alles Aktuelle</p>
+
+
+
+
+			<hr />
+
+			<ul>
+			{% for more in site.categories[page.folder] offset:1 %}
+				<li style="color:#333;"><h6>{{ more.date | date_to_string }}</h6><a href="{{ BASE_PATH }}{{more.url}}"><small>{{more.title}}</small></a></li>
+			{% endfor %}
+			</ul>
+
+
+	
+
+		</div>	
+
+
+
+	</div>			
+</div>
