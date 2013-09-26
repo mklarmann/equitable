@@ -6,6 +6,7 @@ folder: aktuelles
 
 {% include JB/setup %}
 
+
 {% for item in site.categories[page.folder] limit:8 %}
 
 	<div class="row-fluid">
@@ -31,12 +32,7 @@ folder: aktuelles
 				<a href="{{ BASE_PATH }}{{item.url}}" class="pull-right btn btn-inverse btn-small">&nbsp;weiterlesen</a>
 
 				<div style="margin:auto" class="bottom-line"></div>
-				<!-- ul class="like-buttons">
-		            <li><div id="fb-root"></div>
-						<fb:like href="{{ BASE_PATH }}{{item.url}}" send="true" width="" show_faces="false " action="like" font=""></fb:like></li>
-						<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="eaternity" data-lang="de" data-url="{{ BASE_PATH }}{{item.url}}" >Twittern</a></li>
-						<li><g:plusone size="medium" annotation="inline" href="{{ BASE_PATH }}{{item.url}}"></g:plusone></li>
-				</ul -->
+
 
 			</div>
 
