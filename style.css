@@ -17,7 +17,7 @@ html {
 }
 
 body { 
-	background: #fff url({{ ASSET_PATH }}/images/background.png) no-repeat top center;
+	background: #fff url({{ ASSET_PATH }}/images/background-repeat.png) repeat-y top center;
 /*	background-size:100% ;*/
 	font-family: "Oswald", "Lucida Grande", sans-serif;
 	color: #4D2E00;
@@ -90,8 +90,9 @@ p {
 	color: #654B13;
 	letter-spacing:0.02em;
 	line-height:1.2em;
-	text-shadow: 0 0 2px #ffffff;
-	/* 15px ist schwierig, weil es das blur ist, d.h. man sieht es nicht mehr */
+	text-shadow: 0 6 12px #ffffff;
+	/* 15px ist schwierig, weil es das blur ist, d.h. man sieht es nicht mehr 
+	--- das macht nix, es wird ja trotzdem schon weiß dahinter und man kann den text besser lesen.. */
 }
 
 
@@ -221,10 +222,12 @@ header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;
 footer { 
 	 background-color: #654B13;
 
-	padding-top: 155px;
+	 margin-top:-1000px;
+	 height:220px;
+	padding-top: 1100px;
 
-	background: url({{ ASSET_PATH }}/images/background_footer-icons.png) 52% 90% repeat-x ; 
-
+/*	background: url({{ ASSET_PATH }}/images/background_footer-icons.png) 52% 90% repeat-x ; */
+	background: #fff url({{ ASSET_PATH }}/images/background.png) no-repeat top center;
 
 }
 	
@@ -241,7 +244,7 @@ footer .row {
 	margin-top: 20px; padding-top: 20px; padding-bottom: 20px;  margin-bottom: 50px; border-bottom: 0px solid #ddd; }
 
 footer h3 {
-	color:#EE7D31;
+	color:#cccccc;
 
 	font-size: 14px;
 	font-weight: 600;
@@ -250,7 +253,8 @@ footer h3 {
 }
 
 footer a {
-	color:#EE7D31;
+	color:#cccccc;
 }
 
+.clear{clear:both; margin-bottom:10px;}
 
