@@ -37,7 +37,9 @@
 
   </head>
 
-  <body>
+  <body onMouseOut="var elems = document.getElementsByClassName('sub-nav');
+for(var i = 0; i < elems.length; i++) { elems[i].style.display = 'none';};var elems = document.getElementsByClassName('nav-box');
+for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75,19,0)'; }">
 	  
 	  
 	  
@@ -54,7 +56,7 @@
   		<div class="container">
   			<div class="row">
   				<div class="span3 offset1">
-  					<a href="http://www.equi-table.ch" style="padding-left:20px"><img class="logo" src="{{ ASSET_PATH }}/images/logo-equitable-150px.png" /></a>
+  					<a href="http://www.equi-table.ch" style="padding-left:20px" ><img class="logo" src="{{ ASSET_PATH }}/images/logo-equitable-150px.png" /></a>
   				</div>
   				<div class="span8">
   				<br><br>
@@ -63,7 +65,10 @@
 
   			<div class="row">
   				<div class="span8 offset3">
-  					<nav>
+  					<nav onmouseover="var elems = document.getElementsByClassName('sub-nav');
+for(var i = 0; i < elems.length; i++) { elems[i].style.display = 'block'; };var elems = document.getElementsByClassName('nav-box');
+for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75,19,0.75)';  }">
+						
   						<ul class="nav-box">
   							<li><h1><a href="{{ BASE_PATH }}/Restaurant">Restaurant</a></h1>
 								<div class="sub-nav">
