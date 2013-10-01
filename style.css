@@ -148,9 +148,6 @@ hr {
 }
 
 .sub-nav ul {
-	
-	
-	 
 
 }
 
@@ -172,7 +169,7 @@ nav h1 {
 }
 
 /* -----------------------------------------
-   Header and Footer
+   Header
 ----------------------------------------- */
 
 .logo {max-width: 180px; margin-bottom: -50px; margin-left: -18px;}
@@ -210,14 +207,16 @@ header nav ul li a {
 header nav ul li a:active { color:white; }
 header nav ul li a:hover {  color:white; }
 
-header nav ul li a > span {  margin-right: 2px; }
+header nav ul li a > span {  margin-right: 0px; }
 header nav #activeSprite { position: absolute; width: 21px; height: 12px; background: url({{ ASSET_PATH }}/images/icons/active-nav.png) 0 0 no-repeat; display: block; }
 
 header nav ul.show-on-mobile { display:none }
 
 header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;}
 
-
+/* -----------------------------------------
+   Footer
+----------------------------------------- */
 
 footer { 
 	 background-color: #654B13;

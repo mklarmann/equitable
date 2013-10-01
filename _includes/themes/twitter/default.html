@@ -68,10 +68,14 @@
   							<li><h1><a href="{{ BASE_PATH }}/Restaurant">Restaurant</a></h1>
 								<div class="sub-nav">
 									<ul>
-										<li>Unsere Küche</li>
+										{% for item in site.categories['restaurant'] limit:8 %}
+											<a href="{{ BASE_PATH }}{{item.url}}"><li>{{item.title}}</li></a>
+										{% endfor %}
+										
+										<!-- <li>Unsere Küche</li>
 										<li>Unser Team</li>
 										<li>Karte</li>
-										<li>Gründer und Partner</li>
+										<li>Gründer und Partner</li> -->
 									</ul>
 								</div>
 							
@@ -79,9 +83,13 @@
   							<li><h1><a  href="{{ BASE_PATH }}/Aktuelles">Aktuelles</a></h1>
 								<div class="sub-nav">
 									<ul>
-										<li>News & Aktuelles</li>
+										{% for item in site.categories['aktuelles'] limit:8 %}
+											<a href="{{ BASE_PATH }}{{item.url}}"><li>{{item.title}}</li></a>
+										{% endfor %}
+										
+										<!-- <li>News & Aktuelles</li>
 										<li>Presse</li>
-										<li>Gallerie</li>
+										<li>Gallerie</li> -->
 									</ul>
 								</div>
 							
@@ -90,8 +98,11 @@
   							<li><h1><a  href="{{ BASE_PATH }}/Reservierung">Reservierung</a></h1>
 								<div class="sub-nav">
 									<ul>
-										<li>Online Reservierung</li>
-										<li>Anlässe, Gruppen</li>
+										{% for item in site.categories['reservierung'] limit:8 %}
+											<a href="{{ BASE_PATH }}{{item.url}}"><li>{{item.title}}</li></a>
+										{% endfor %}
+										<!-- <li>Online Reservierung</li>
+										<li>Anlässe, Gruppen</li> -->
 									</ul>
 								</div>
 							
@@ -100,8 +111,11 @@
   							<li><h1><a href="{{ BASE_PATH }}/Kontakt">Kontakt</a></h1>
 								<div class="sub-nav">
 									<ul>
-										<li>Anfahrt</li>
-										<li>Impressum</li>
+										{% for item in site.categories['kontakt'] limit:8 %}
+											<a href="{{ BASE_PATH }}{{item.url}}"><li>{{item.title}}</li></a>
+										{% endfor %}
+										<!-- <li>Anfahrt</li>
+										<li>Impressum</li> -->
 									</ul>
 								</div>
 							
