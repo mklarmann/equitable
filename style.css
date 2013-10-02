@@ -73,14 +73,20 @@ h2 {
 	
 }
 
+h3{
+	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 23px;
+	color: #654B13;
+	}
 
 
 
 p {
 	font-family: 'Tahoma', "Lucida Grande", sans-serif;
-	font-size: 13px;
-	color: #816C40;
-	line-height: 1.1em 
+	font-size: 14px;
+	color: #71592e;
+	line-height: 1.2em; 
 }
 
 .start p {
@@ -106,6 +112,13 @@ p {
 /*
 a { color: #F18224; text-decoration: none; line-height: inherit; }
 */
+
+a {
+	color: #816C40;
+	font-weight:bold;
+	text-decoration: none; 
+	line-height: inherit;
+	}
 
 a:hover {  text-decoration: underline; }
 
@@ -158,7 +171,7 @@ hr {
 .sub-nav ul li {
 	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
 	font-weight: 300;
-	font-size: 13px;
+	font-size: 14px;
 	color: white;
 	text-transform: none;
 	float: none;
@@ -217,6 +230,9 @@ header nav #activeSprite { position: absolute; width: 21px; height: 12px; backgr
 header nav ul.show-on-mobile { display:none }
 
 header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;}
+
+
+.row-fluid{margin-bottom:15px;}
 
 /* -----------------------------------------
    Footer
