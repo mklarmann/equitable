@@ -20,14 +20,15 @@ body {
 	background: #fff url({{ ASSET_PATH }}/images/background-repeat.png) repeat-y top center;
 /*	background-size:100% ;*/
 	font-family: "Oswald", "Lucida Grande", sans-serif;
-	color: #4D2E00;
+	//color: #4D2E00;
+	color:#71592E;
 }
 
 /* Die Teaserboxen */
 .box {
 	font-family: Tahoma, Verdana, sans-serif;
-	line-height:1.2em;
-	padding: 20px 20px;  
+	line-height:1.3em;
+	padding: 20px 30px;  
 /*	background: #ffffff;*/
 	background:rgba(255,255,255,0.8);
 	
@@ -133,7 +134,8 @@ color: #FF8300;
 
 
 hr {
-	border: 0px;
+	border: 1px #cccccc;
+	margin:10px 0;
 }
 
 
@@ -271,7 +273,7 @@ footer h3 {
 	text-transform: uppercase;
 }
 
-footer a {
+footer a, footer p {
 	color:#cccccc;
 }
 
