@@ -6,38 +6,38 @@ folder: aktuelles
 
 {% include JB/setup %}
 
+<div class="row-fluid">
+	<div class="span10">
+ <p>Wollen Sie über unser aktuelles Angebot informiert bleiben? Gerne senden wir Ihnen unseren monatlichen Newsletter. <br />Newsletter <a href="mailto:news@equi-table.ch">bestellen</a>
+</p>
+				
+		
+ 	</div>
+</div>
 
-{% for item in site.categories[page.folder] limit:8 %}
+<div class="row-fluid">
+	<div class="span12">
 
-	<div class="row-fluid">
-		<div class="span12">
-			<div class="well-non">
-				<a href="{{ BASE_PATH }}{{item.url}}">
-					<h2 style="padding-bottom: 0.2em;">{{item.title}}</h2>
-					<div class="recipe-info"><img class="about" src="{{ ASSET_PATH }}/images/icons/calendar.png" /><small>{{ item.date | date_to_string }}</small><img class="about" src="{{ ASSET_PATH }}/images/icons/author.png" /><small>{{ item.author }}</small></div>
-					{% if item.blog-image != null %}<img src="{{ ASSET_PATH }}/images/blog/teaser_1400x450/{{ item.blog-image }}" >{% endif %}<h3 style="padding-bottom: 0.2em;">{{item.subtitle}}</h3>
-				</a>			
+		<div class="row-fluid">
+			<div class="span4">
 
+ 		<img src="/assets/themes//images/equiTable-gourmesse.jpg" />
+				
+		 	</div>
+		</div>		
 
-				<p>
-				{% if item.short == null %}
-					{{ item.content | strip_html | truncatewords: 42 }}
-				{% else %}
-					{{ item.short }}
-				{% endif %}
-				</p>
+		<div class="row-fluid">
+			<div class="span7">
 
-				<!-- <a href="{{ BASE_PATH }}{{item.url}}#disqus_thread">Kommentare</a>. -->
-
-				<a href="{{ BASE_PATH }}{{item.url}}" class="pull-right btn btn-inverse btn-small">&nbsp;weiterlesen</a>
-
-				<div style="margin:auto" class="bottom-line"></div>
+<h3>Gourmesse 2013</h3> <p> Am Samstag, den 5.10., ist equiTable live in der <a href="http://www.gourmesse.ch/gourmesse/besucher/Showkueche_Samstag.php">Showküche</a> vertreten.<br />
+<a href="http://www.gourmesse.ch">gourmesse.ch</a>
+</p>
+				
+				
+		 	</div>
+		</div>		
+ 	</div>
+</div>
 
 
-			</div>
 
-
-		</div>
-
-	</div>
-{% endfor %}

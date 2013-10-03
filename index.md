@@ -9,6 +9,7 @@ tagline: Ihr Restaurant für den nachhaltigen Genuss.
 # Ihr Restaurant für ein nachhaltiges Genusserlebnis
 
 
+
 Das Restaurant EquiTable im Sankt Meinrad vereint Produkte aus dem Fairen Handel und exotische, kulinarische Einflüsse aus dem Süden mit einer saisonalen und regionalen Küche, vorwiegend in Bioqualität. EquiTable verkörpert Nachhaltigkeit als Lebensstil und bietet mit gesunden und natürlichen Geschmackswelten ein Genusserlebnis, das Sie als Gäste und die Produzenten als Begünstigte nachhaltig prägen soll.
 
 In diesem Sinne versteht sich EquiTable als Schaufenster für den Fairen Handel und all die genussvollen heimischen und saisonalen Produkte. Wir versprechen 100% nachhaltigen Genuss: fair, regional, saisonal, bio, klimafreundlich. Das Team von EquiTable arbeitet jeden Tag daran, dieses Versprechen an Sie mit spannenden Menukreationen, mit Qualität, Leidenschaft und Engagement einzulösen.

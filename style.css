@@ -134,7 +134,8 @@ color: #FF8300;
 
 
 hr {
-	border: 1px #cccccc;
+/*	border: 1px #cccccc;*/
+	border: none;
 	margin:10px 0;
 }
 
