@@ -70,7 +70,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.display = 'block'; };var 
 for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75,19,0.75)';  }">
 						
   						<ul class="nav-box">
-  							<li><h1><a href="{{ BASE_PATH }}/Restaurant">Restaurant</a></h1>
+  							<li style="width: 97px;"><h1><a href="{% for item in site.categories['restaurant'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Restaurant</a></h1>
 								<div class="sub-nav">
 									<ul>
 										{% for item in site.categories['restaurant'] limit:8 %}
@@ -85,7 +85,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 								</div>
 							
 							</li>
-  							<li><h1><a  href="{{ BASE_PATH }}/Aktuelles">Aktuelles</a></h1>
+  							<li style="width: 80px;"><h1><a  href="{% for item in site.categories['aktuelles'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Aktuelles</a></h1>
 								<div class="sub-nav">
 									<ul>
 										{% for item in site.categories['aktuelles'] limit:8 %}
@@ -100,7 +100,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 							
 							
 							</li>
-  							<li><h1><a  href="{{ BASE_PATH }}/Reservierung">Reservierung</a></h1>
+  							<li style="width: 98px;"><h1><a  href="{% for item in site.categories['reservierung'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Reservierung</a></h1>
 								<div class="sub-nav">
 									<ul>
 										{% for item in site.categories['reservierung'] limit:8 %}
@@ -113,7 +113,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 							
 							
 							</li>
-  							<li><h1><a href="{{ BASE_PATH }}/Kontakt">Kontakt</a></h1>
+  							<li style="width: 78px;"><h1><a href="{% for item in site.categories['kontakt'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Kontakt</a></h1>
 								<div class="sub-nav">
 									<ul>
 										{% for item in site.categories['kontakt'] limit:8 %}

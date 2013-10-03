@@ -134,11 +134,14 @@ color: #FF8300;
 
 
 hr {
-/*	border: 1px #cccccc;*/
-	border: none;
+	border: 1px #cccccc;
+
 	margin:10px 0;
 }
 
+.page-header {
+	border-bottom:0;
+}
 
 /* -----------------------------------------
    Navigation
@@ -168,7 +171,7 @@ hr {
 }
 
 .sub-nav ul {
-
+/*	overflow:hidden;*/
 }
 
 .sub-nav ul li {
@@ -178,13 +181,17 @@ hr {
 	color: white;
 	text-transform: none;
 	float: none;
-	margin: 0px 10px 0px 0px;
+	margin: 0px 0px 0px 0px;
+/*	padding-right:10px;*/
+/*	text-align:left;*/
 /*	width:100px;*/
-	overflow: hidden;
+/*	overflow: hidden;*/
 }
 
 nav h1 {
-	margin: -15px 22px 0px 0px;
+	margin: -15px 10px 0px 0px;
+/*	padding-right:10px;*/
+/*	float:left;*/
 	line-height:1.2em;
 }
 
