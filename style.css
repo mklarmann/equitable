@@ -283,6 +283,7 @@ footer h3 {
 
 footer a, footer p {
 	color:#cccccc;
+	font-size:13px;
 }
 
 .clear{clear:both; margin-bottom:10px;}
