@@ -109,6 +109,9 @@ p {
 	color:  #816C40;
 }
 
+.breadcrumb{
+	padding:8px 0;
+	}
 
 /*
 a { color: #F18224; text-decoration: none; line-height: inherit; }
