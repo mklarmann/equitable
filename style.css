@@ -59,6 +59,23 @@ body {
 }
 
 
+.popout-small {
+    animation: popout 0.5s ease;
+    -webkit-animation: popout 0.5s ease;
+}
+@keyframes popout {
+    from{transform:scale(0.8)}
+    30%{transform:scale(1.01)}
+    to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+    from{-webkit-transform:scale(0.8)}
+    30%{-webkit-transform:scale(1.01)}
+    to{-webkit-transform:scale(1)}
+}
+
+
+
 /* -----------------------------------------
    Text
 ----------------------------------------- */
