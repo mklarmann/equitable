@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Equitable  &#10031; {{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 	<meta http-equiv="Keywords" content="equitable, fairtrade, meals, nachhaltig, welternährung, genuss"/>
@@ -9,7 +10,9 @@
 
 
     <!-- Enable responsive viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<!-- do not allow zomming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -170,16 +173,15 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
   	<footer>
   		<!-- container -->
   		<div class="container">
+			<div class="hidden-xs" style="height:20px"><br /></div>
   			<div class="row">
 		       <div class="col-md-6 col-md-offset-1">
-		          <p><strong>Equitable</strong> im Sankt Meinrad | Stauffacherstrasse 193 | 8004 Zürich | +41 (0)43 534 82 77</p>
-			  </div>
-	      	 <div class="col-md-4">
-	          	<p><strong>Di-Fr</strong>: 12.00 - 14.00, 18.30 - 24.00, <strong>Sa</strong> 18.30 - 24.00</p>
-		  	</div>
+		         <p><strong>Equitable</strong> im Sankt Meinrad | Stauffacherstrasse 193 | 8004 Zürich | +41 (0)43 534 82 77</p>
+			 	 </div>
+	      	 	<div class="col-md-4">
+	          	  <p><strong>Di-Fr</strong>: 12.00 - 14.00, 18.30 - 24.00, <strong>Sa</strong> 18.30 - 24.00</p>
+		  		</div>
 			  <!--   Website &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} -->
-
-
   			</div>
   		</div>
   		<!-- container -->
@@ -191,7 +193,8 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 	<script src="{{ ASSET_PATH }}/js/jquery.js"></script>
 	<script>
 	$(document).ready(function () {
-	   $("[rel=tooltip]").tooltip();
+	   // $("[rel=tooltip]").tooltip();
+	   $('.carousel').carousel();
 	 });
 
 	</script>
