@@ -19,6 +19,11 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="{{ ASSET_PATH }}/js/html5shiv.js"></script>
+      <script src="{{ ASSET_PATH }}/js/respond.min.js"></script>
+    <![endif]-->
 
 	<!-- Google-Font File-->
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
@@ -30,8 +35,7 @@
 	
     <link href="{{ BASE_PATH }}/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 	
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -51,9 +55,11 @@
 for(var i = 0; i < elems.length; i++) { elems[i].style.display = 'none';};var elems = document.getElementsByClassName('nav-box');
 for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75,19,0)'; }">
 	  
-	  
-	  
-	  
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{{ ASSET_PATH }}/js/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+
 	  
 	  
 	  
@@ -190,14 +196,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 
   
 	  
-	<script src="{{ ASSET_PATH }}/js/jquery.js"></script>
-	<script>
-	$(document).ready(function () {
-	   // $("[rel=tooltip]").tooltip();
-	   $('.carousel').carousel();
-	 });
 
-	</script>
 	  
 
 
