@@ -62,16 +62,16 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
   	<header>
   		<div class="container">
   			<div class="row">
-  				<div class="span3 offset1">
+  				<div class="col-md-3 col-md-offset-1">
   					<a href="http://www.equi-table.ch" style="padding-left:20px" ><img class="logo" src="{{ ASSET_PATH }}/images/logo-equitable-150px.png" /></a>
   				</div>
-  				<div class="span8">
+  				<div class="col-md-8">
   				<br><br>
   				</div>
   			</div>
 
   			<div class="row">
-  				<div class="span8 offset3">
+  				<div class="col-md-8 col-md-offset-3">
   					<nav onmouseover="var elems = document.getElementsByClassName('sub-nav');
 for(var i = 0; i < elems.length; i++) { elems[i].style.display = 'block'; };var elems = document.getElementsByClassName('nav-box');
 for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75,19,0.75)';  }">
@@ -153,7 +153,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
  
 
  			<div class="row">
-				<div class="span10 offset1">
+				<div class="col-md-10 col-md-offset-1">
   			  	  {{ content }}
 				</div>
 			</div>
@@ -171,10 +171,10 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
   		<!-- container -->
   		<div class="container">
   			<div class="row">
-		       <div class="span6 offset1">
+		       <div class="col-md-6 col-md-offset-1">
 		          <p><strong>Equitable</strong> im Sankt Meinrad | Stauffacherstrasse 193 | 8004 Zürich | +41 (0)43 534 82 77</p>
 			  </div>
-	      	 <div class="span4">
+	      	 <div class="col-md-4">
 	          	<p><strong>Di-Fr</strong>: 12.00 - 14.00, 18.30 - 24.00, <strong>Sa</strong> 18.30 - 24.00</p>
 		  	</div>
 			  <!--   Website &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} -->
