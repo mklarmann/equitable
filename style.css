@@ -252,12 +252,13 @@ header {
   background-position:80% 0%;*/
   margin-left:20px; margin-right:20px;
 
-  min-height:150px;
+/*  min-height:150px;*/
 }
 
 header nav { 
 /*		display:none;*/
 	margin-top: -36px; margin-bottom:-6px; margin-right:0px;
+	min-height:150px;
 
 
 
