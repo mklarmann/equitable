@@ -7,4 +7,4 @@
     piwikTracker.trackPageView();
     piwikTracker.enableLinkTracking();
   } catch( err ) {}
-</script><noscript><p><img src="http://{{ site.JB.analytics.piwik.baseURL }}/piwik.php?idsite={{ site.JB.analytics.piwik.idsite }}" style="border:0" alt="" /></p></noscript>
+</script><noscript><p><img class="img-responsive" src="http://{{ site.JB.analytics.piwik.baseURL }}/piwik.php?idsite={{ site.JB.analytics.piwik.idsite }}" style="border:0" alt="" /></p></noscript>
