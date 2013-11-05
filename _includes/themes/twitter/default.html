@@ -53,7 +53,8 @@
 
   <body onMouseOut="var elems = document.getElementsByClassName('sub-nav');
 for(var i = 0; i < elems.length; i++) { elems[i].style.display = 'none';};var elems = document.getElementsByClassName('nav-box');
-for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75,19,0)'; }">
+for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(82,66,32,0)';};var elems = document.getElementsByClassName('change-color');
+for(var i = 0; i < elems.length; i++) { elems[i].style.color = '#524220'; }">
 	  
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ ASSET_PATH }}/js/jquery.js"></script>
@@ -64,20 +65,19 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 	  
 	  
 	  
-	  
-<div class="container">
+<div class="container top-space">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="box ">
+		<div class="col-md-12">
+			<div class="box">
 
   	<!-- Header Content -->
   	<header>
-  		<div class="container">
+
 			<!-- Box -->
   			<div class="row">
   				<div class="col-md-3">
 					
-  					<a href="http://www.equi-table.ch" style="padding-left:20px" ><img class="img-responsive" class="logo" src="{{ ASSET_PATH }}/images/logo-equitable-gelb.png" /></a>
+  					<a href="http://www.equi-table.ch"  ><img class="img-responsive" class="logo" src="{{ ASSET_PATH }}/images/logo-equitable-gelb.png" /></a>
   				</div>
   				<div class="col-md-8">
   				<br><br>
@@ -89,10 +89,11 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 					<div class="hidden-xs" style="margin-top:-70px"><br /></div>
   					<nav class="hidden-xs" onmouseover="var elems = document.getElementsByClassName('sub-nav');
 for(var i = 0; i < elems.length; i++) { elems[i].style.display = 'block'; };var elems = document.getElementsByClassName('nav-box');
-for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75,19,0.75)';  }">
+for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(82,66,32,0.8)';};var elems = document.getElementsByClassName('change-color');
+for(var i = 0; i < elems.length; i++) { elems[i].style.color = '#ffffff';   }">
 						
   						<ul class="nav-box">
-  							<li style="width: 100px;"><h1><a href="{% for item in site.categories['restaurant'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Restaurant</a></h1>
+  							<li style="width: 100px;"><h1><a class="change-color" href="{% for item in site.categories['restaurant'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Restaurant</a></h1>
 								<div class="sub-nav">
 									<ul>
 										{% for item in site.categories['restaurant'] limit:8 %}
@@ -107,7 +108,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 								</div>
 							
 							</li>
-  							<li style="width: 80px;"><h1><a  href="{% for item in site.categories['aktuelles'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Aktuelles</a></h1>
+  							<li style="width: 80px;"><h1><a class="change-color"  href="{% for item in site.categories['aktuelles'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Aktuelles</a></h1>
 								<div class="sub-nav">
 									<ul>
 										{% for item in site.categories['aktuelles'] limit:8 %}
@@ -122,7 +123,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 							
 							
 							</li>
-  							<li style="width: 98px;"><h1><a  href="{% for item in site.categories['reservierung'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Reservierung</a></h1>
+  							<li style="width: 98px;"><h1><a  class="change-color" href="{% for item in site.categories['reservierung'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Reservierung</a></h1>
 								<div class="sub-nav">
 									<ul>
 										{% for item in site.categories['reservierung'] limit:8 %}
@@ -135,7 +136,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 							
 							
 							</li>
-  							<li style="width: 80px;"><h1><a href="{% for item in site.categories['kontakt'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Kontakt</a></h1>
+  							<li style="width: 80px;"><h1><a class="change-color"  href="{% for item in site.categories['kontakt'] limit:1 %}{{ BASE_PATH }}{{item.url}}{% endfor %}">Kontakt</a></h1>
 								<div class="sub-nav">
 									<ul>
 										{% for item in site.categories['kontakt'] limit:8 %}
@@ -154,7 +155,7 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
   				</div>
   			</div>
 
-  		</div><!-- container -->
+  	
   	</header>
 
 
@@ -183,15 +184,15 @@ for(var i = 0; i < elems.length; i++) { elems[i].style.background = 'rgba(101,75
 
 
   	<!-- Footer Content -->
-  	<footer>
+  	<footer class="footer-style">
   		<!-- container -->
   		<div class="container">
 			<div class="hidden-xs" style="height:20px"><br /></div>
   			<div class="row">
-		       <div class="col-md-6 col-md-offset-1">
+		       <div class="col-md-6 ">
 		         <p><strong>Equitable</strong> im Sankt Meinrad | Stauffacherstrasse 193 | 8004 Zürich | +41 (0)43 534 82 77</p>
 			 	 </div>
-	      	 	<div class="col-md-4">
+	      	 	<div class="col-md-4 col-md-offset-1">
 	          	  <p><strong>Di-Fr</strong>: 12.00 - 14.00, 18.30 - 24.00, <strong>Sa</strong> 18.30 - 24.00</p>
 		  		</div>
 			  <!--   Website &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} -->

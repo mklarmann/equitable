@@ -17,11 +17,17 @@ html {
 }
 
 body { 
-	background: #fff url({{ ASSET_PATH }}/images/background-repeat.png) repeat-y top center;
+	background: #EBEBEB;
+/*	url({{ ASSET_PATH }}/images/background-repeat.png) repeat-y top center;*/
 /*	background-size:100% ;*/
 	font-family: "Oswald", "Lucida Grande", sans-serif;
-	//color: #4D2E00;
-	color:#71592E;
+/*	color: #4D2E00;*/
+	color:#524220;
+}
+
+
+.top-space {
+	margin-top:40px;
 }
 
 /* Die Teaserboxen */
@@ -92,7 +98,8 @@ h1 {
 	font-family: 'Oswald Regular', "Oswald", "Lucida Grande", sans-serif;
 	font-weight: 400;
 	font-size: 30px;
-	color: #654B13;
+/*	color: #654B13;*/
+	color: #524220;
 
 /*	font-weight: 100;
 	text-shadow: 1px 2px 2px 
@@ -109,7 +116,9 @@ h2 {
 	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
 	font-weight: 300;
 	font-size: 30px;
-	color: #654B13;
+/*	color: #654B13;*/
+	color: #524220;
+	
 	margin-top:10;
 	
 }
@@ -118,7 +127,8 @@ h3{
 	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
 	font-weight: 300;
 	font-size: 23px;
-	color: #654B13;
+/*	color: #654B13;*/
+	color: #524220;
 	}
 
 
@@ -126,7 +136,8 @@ h3{
 p {
 	font-family: 'Tahoma', "Lucida Grande", sans-serif;
 	font-size: 14px;
-	color: #71592e;
+/*	color: #71592e;*/
+	color: #524220;
 	line-height: 1.2em; 
 }
 
@@ -134,7 +145,8 @@ p {
 	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
 	font-weight: 300;
 	font-size: 15px;
-	color: #654B13;
+/*	color: #654B13;*/
+	color: #524220;
 	letter-spacing:0.02em;
 	line-height:1.2em;
 	text-shadow: 0 6 12px #ffffff;
@@ -242,22 +254,30 @@ nav h1 {
    Header
 ----------------------------------------- */
 
-.logo {max-width: 180px; margin-bottom: -50px; margin-left: -18px;}
+.logo { max-width: 180px; margin-bottom: -50px; margin-left: -18px;}
 
 header { 
 
-	padding-bottom: 645px; padding-top: 30px; margin-bottom:-620px;
+	 padding-top: 0px; 
   /* background: url({{ ASSET_PATH }}/images/cut3.png) repeat-x ;*/
 /*  background: url({{ ASSET_PATH }}/images/background_falling.png) no-repeat;
   background-position:80% 0%;*/
   margin-left:20px; margin-right:20px;
+  
+  padding-bottom: 645px;
+  
+/*  margin-bottom:-620px;*/
+  margin-bottom:-670px;
+  
 
 /*  min-height:150px;*/
 }
 
 header nav { 
 /*		display:none;*/
-	margin-top: -36px; margin-bottom:-6px; margin-right:0px;
+/*	margin-top: -36px; */
+	margin-top: -56px; 
+	margin-bottom:-6px; margin-right:0px;
 	min-height:150px;
 
 
@@ -272,7 +292,7 @@ header nav ul li a {
 	font-family: 'Oswald Regular', "Oswald", "Lucida Grande", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
-	color: white;
+	color: #524220;
  }
  
 header nav ul li a:active { color:white; }
@@ -288,24 +308,37 @@ header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;
 
 .row{margin-bottom:15px;}
 
+#carousel-example-generic {
+	margin-left:-35px;margin-right:-35px;
+}
+
+
 /* -----------------------------------------
    Footer
 ----------------------------------------- */
 
 footer { 
-	 background-color: #654B13;
+/*	 background-color: #654B13;*/
 
-	 margin-top:-1000px;
+	background: #EBEBEB;
+/*	 margin-top:-1000px;*/
+/*	padding-top: 1100px;*/
+	margin-top:40px;
+	
 /*	 height:220px;*/
-	padding-top: 1100px;
+
 
 /*	background: url({{ ASSET_PATH }}/images/background_footer-icons.png) 52% 90% repeat-x ; */
-	background: #fff url({{ ASSET_PATH }}/images/background.png) no-repeat top center;
+/*	background: #fff url({{ ASSET_PATH }}/images/background.png) no-repeat top center;*/
 
+}
+
+.footer-style {
+	background: #524220;
 }
 	
 footer p {
-		color:#ccccccc;
+		color:#cccccc;
 }
 
 footer p strong {
@@ -314,7 +347,7 @@ footer p strong {
 	
 footer .row { 
 /*		display:none;*/
-	margin-top: 0px; padding-top: 20px; padding-bottom: 20px;  margin-bottom: 50px; border-bottom: 0px solid #ddd; }
+	margin-top: 0px; padding-top: 10px; padding-bottom: 10px;  margin-bottom: 20px; border-bottom: 0px solid #ddd; }
 
 
 footer h3 {
