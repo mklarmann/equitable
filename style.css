@@ -95,9 +95,9 @@ body {
 ----------------------------------------- */
 
 h1 {
-	font-family: 'Oswald Regular', "Oswald", "Lucida Grande", sans-serif;
-	font-weight: 400;
-	font-size: 30px;
+	font-family: 'Oswald Light', "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 40px;
 /*	color: #654B13;*/
 	color: #524220;
 
@@ -123,7 +123,11 @@ h2 {
 	
 }
 
-h3{
+.flipper h2 {
+	padding:20px;
+}
+
+h3 {
 	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
 	font-weight: 300;
 	font-size: 23px;
@@ -135,21 +139,25 @@ h3{
 
 p {
 	font-family: 'Tahoma', "Lucida Grande", sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 /*	color: #71592e;*/
 	color: #524220;
-	line-height: 1.2em; 
+	line-height: 1.3em; 
+}
+
+.flipper p {
+	padding:15px;
 }
 
 .start p {
-	font-family: 'Oswald Light',  "Oswald", "Lucida Grande", sans-serif;
-	font-weight: 300;
-	font-size: 15px;
+	font-family: 'Oswald Regular',  "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 /*	color: #654B13;*/
 	color: #524220;
-	letter-spacing:0.02em;
-	line-height:1.2em;
-	text-shadow: 0 6 12px #ffffff;
+/*	letter-spacing:0.02em;*/
+	line-height:1.3em;
+/*	text-shadow: 0 6 12px #ffffff;*/
 	/* 15px ist schwierig, weil es das blur ist, d.h. man sieht es nicht mehr 
 	--- das macht nix, es wird ja trotzdem schon weiß dahinter und man kann den text besser lesen.. */
 }
@@ -258,7 +266,7 @@ nav h1 {
 
 header { 
 
-	 padding-top: 0px; 
+	 padding-top: 10px; 
   /* background: url({{ ASSET_PATH }}/images/cut3.png) repeat-x ;*/
 /*  background: url({{ ASSET_PATH }}/images/background_falling.png) no-repeat;
   background-position:80% 0%;*/
@@ -266,8 +274,10 @@ header {
   
   padding-bottom: 645px;
   
+  
+/*  Wie hoch steht die navbox?*/
 /*  margin-bottom:-620px;*/
-  margin-bottom:-670px;
+  margin-bottom:-640px;
   
 
 /*  min-height:150px;*/
@@ -276,9 +286,14 @@ header {
 header nav { 
 /*		display:none;*/
 /*	margin-top: -36px; */
-	margin-top: -56px; 
-	margin-bottom:-6px; margin-right:0px;
+/*	margin-top: -56px; */
+	margin-top: -6px; 
+	margin-bottom:-36px; margin-right:0px;
 	min-height:150px;
+	z-index:2;
+	position:absolute;
+	right:0px;
+	
 
 
 
@@ -306,11 +321,16 @@ header nav ul.show-on-mobile { display:none }
 header nav ul li img {  max-height: 16px; margin-right:15px; margin-bottom:-1px;}
 
 
-.row{margin-bottom:15px;}
+.row{ margin-bottom:15px; }
 
 #carousel-example-generic {
-	margin-left:-35px;margin-right:-35px;
+	margin-left:-35px; margin-right:-35px;
 }
+
+.carousel-inner {
+	max-height:500px;
+}
+
 
 
 /* -----------------------------------------
@@ -351,16 +371,33 @@ footer .row {
 
 
 footer h3 {
+	font-family: 'Oswald Regular',  "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 400;
 	color:#cccccc;
 
-	font-size: 14px;
-	font-weight: 600;
-/*	font-weight: bold */
-	text-transform: uppercase;
+	font-size: 16px;
+/*	text-transform: uppercase;*/
+	display:inline;
+/*		line-height: 1.4em; */
+
+	
+	
 }
 
 
-footer a, footer p {
+footer p {
+	font-family: 'Oswald Light', "Oswald", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	color:#cccccc;
+	
+	padding-top:0.5em;
+	font-size: 15px;
+
+}
+
+
+
+footer a {
 	color:#cccccc;
 	font-size:13px;
 }
@@ -378,6 +415,8 @@ footer a, footer p {
 	-moz-perspective: 1000;
 	perspective: 1000;
 /*	perspective: 1000;*/
+		margin-bottom:70px;
+
 }
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -389,8 +428,10 @@ footer a, footer p {
 	}
 
 .flip-container, .front, .back {
-	width: 320px;
-	height: 480px;
+/*	width: 320px;
+	height: 480px;*/
+/*	min-width:282px;*/
+	min-height:282px;
 }
 
 /* flip speed goes here */
@@ -430,7 +471,7 @@ footer a, footer p {
 	transform: rotateY(180deg);
 	
 
-	background: url({{ ASSET_PATH }}/images/newTeaser00-textBG.png) no-repeat top center;
+/*	background: url({{ ASSET_PATH }}/images/newTeaser00-textBG.png) no-repeat bottom center;*/
 	
 	padding:20px;
 	text-align:center;
