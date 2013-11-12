@@ -147,11 +147,12 @@ p {
 
 .flipper p {
 	padding:15px;
+	font-weight: 300;
 }
 
 .start p {
 	font-family: 'Oswald Regular',  "Oswald", "Lucida Grande", sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 16px;
 /*	color: #654B13;*/
 	color: #524220;
@@ -359,6 +360,7 @@ footer {
 	
 footer p {
 		color:#cccccc;
+		letter-spacing:0.05em;
 }
 
 footer p strong {
@@ -376,6 +378,7 @@ footer h3 {
 	color:#cccccc;
 
 	font-size: 16px;
+	letter-spacing:0.05em;
 /*	text-transform: uppercase;*/
 	display:inline;
 /*		line-height: 1.4em; */
