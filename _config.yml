@@ -24,7 +24,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://mklarmann.github.com/equitable
+production_url : http://equi-table.ch
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -53,7 +53,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://mklarmann.github.com/equitable
+  BASE_PATH : 
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -63,7 +63,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : http://mklarmann.github.com/equitable/assets
+  ASSET_PATH : http://equi-table.ch/assets
   
   # ASSET_PATH : /assets
 
@@ -101,7 +101,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-45773816-1'
     getclicky :
       site_id : 
     mixpanel :
