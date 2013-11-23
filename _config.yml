@@ -9,10 +9,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Restaurant Equitable
+title : Restaurant Equi-Table
 tagline: 
 author :
-  name : equitable team
+  name : Restaurant Equi-Table
   email : info@equi-table.ch
 
 
