@@ -20,10 +20,10 @@ author :
 # prose.io configuration
 
 prose:
-  rooturl: '_posts'
+  rooturl: '_posts/aktuelles/galerie'
   siteurl: 'https://equi-table.ch'
   relativeLinks: 'https://equi-table.ch/links.jsonp'
-  media: 'assets'
+  media: 'assets/images/galerie'
   metadata:
     _posts:
       - name: "layout"
