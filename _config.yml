@@ -16,6 +16,35 @@ author :
   email : info@equi-table.ch
 
 
+
+# prose.io configuration
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://equi-table.ch'
+  relativeLinks: 'https://equi-table.ch/links.jsonp'
+  media: 'assets'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "category"
+        field:
+          element: "multiselect"
+          label: "Add Categries"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Food Story"
+              value: "galerie"
+            - name: "News"
+              value: "news"
+            - name: "Aktuelles"
+              value: "aktuelles"
+
+
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
