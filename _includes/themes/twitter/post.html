@@ -1,17 +1,16 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-</div>
+
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
+      <!-- <span>{{ page.date | date_to_long_string }}</span> -->
     </div>
+	  <hr>
     <div class="content">
       {{ content }}
     </div>
 
-  {% unless page.categories == empty %}
+  <!-- {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li><i class="icon-folder-open"></i></li>
       {% assign categories_list = page.categories %}
@@ -25,11 +24,11 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}   
 
     <hr>
-    <div class="pagination">
-      <ul>
+    <div>
+      <ul class="pagination">
       {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
       {% else %}
@@ -43,7 +42,51 @@
       {% endif %}
       </ul>
     </div>
+	  
+	  -->
+	  
+	   <br><br><br><br>
+	  <div class="row">
+	  	<div class="col-md-12"><img class="img-responsive" style="margin:auto" src="{{ ASSET_PATH }}/images/trenner700.png" /></div>
+	  </div>
+	  
+	   <br>
+	  <h1>Unsere Food Stories</h1>
+      <br>
+	  
+
+      <div>
+     {% for more in site.categories['galerie'] offset:0  %}
+
+		<a href="{{ BASE_PATH }}{{ more.url }}/">
+		<div class="col-md-4">
+		  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		  	<div class="flipper">
+		  		<div class="back">
+		  			<!-- front content -->
+					<img class="img-responsive" src="{{ ASSET_PATH }}/images/galerie/{{ more.square }}" />
+		  		</div>
+		  		<div class="front">
+		  			<!-- back content -->
+				  <img class="img-responsive" src="{{ ASSET_PATH }}/images/newTeaser00-textBG.png" style="position:absolute;top:0px;left:0px;z-index:-1;"/>
+			  
+				<div style="z-index:1;">
+				  <h2>{{ more.title }}</h2>
+				  <p>{{ more.tagline }}</p>
+				</div>
+			
+		  		</div>
+		  	</div>
+		  </div>
+		</div></a>
+		
+	 {% endfor %}
+	 
+      </div>
+	  
     <hr>
     {% include JB/comments %}
   </div>
 </div>
+
+
