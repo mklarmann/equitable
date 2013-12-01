@@ -33,7 +33,7 @@ prose:
       - name: "category"
         field:
           element: "multiselect"
-          label: "Add Categries"
+          label: "Add Categories"
           placeholder: "Choose Tags"
           options:
             - name: "Food Story"
@@ -118,7 +118,7 @@ JB :
     intensedebate :
       account : 123abc
     facebook :
-      appid : 123
+      appid : 142562152455828
       num_posts: 5
       width: 580
       colorscheme: light
