@@ -18,7 +18,7 @@ html {
 
 body { 
 	background: #EBEBEB;
-/*	url({{ ASSET_PATH }}/images/background-repeat.png) repeat-y top center;*/
+/*	url({{ ASSET_PATH }}/assets/images/background-repeat.png) repeat-y top center;*/
 /*	background-size:100% ;*/
 	font-family: "Oswald", "Lucida Grande", sans-serif;
 /*	color: #4D2E00;*/
@@ -268,8 +268,8 @@ nav h1 {
 header { 
 
 	 padding-top: 10px; 
-  /* background: url({{ ASSET_PATH }}/images/cut3.png) repeat-x ;*/
-/*  background: url({{ ASSET_PATH }}/images/background_falling.png) no-repeat;
+  /* background: url({{ ASSET_PATH }}/assets/images/cut3.png) repeat-x ;*/
+/*  background: url({{ ASSET_PATH }}/assets/images/background_falling.png) no-repeat;
   background-position:80% 0%;*/
   margin-left:20px; margin-right:20px;
   
@@ -315,7 +315,7 @@ header nav ul li a:active { color:white; }
 header nav ul li a:hover {  color:white; }
 
 header nav ul li a > span {  margin-right: 0px; }
-header nav #activeSprite { position: absolute; width: 21px; height: 12px; background: url({{ ASSET_PATH }}/images/icons/active-nav.png) 0 0 no-repeat; display: block; }
+header nav #activeSprite { position: absolute; width: 21px; height: 12px; background: url({{ ASSET_PATH }}/assets/images/icons/active-nav.png) 0 0 no-repeat; display: block; }
 
 header nav ul.show-on-mobile { display:none }
 
@@ -351,8 +351,8 @@ footer {
 /*	 height:220px;*/
 
 
-/*	background: url({{ ASSET_PATH }}/images/background_footer-icons.png) 52% 90% repeat-x ; */
-/*	background: #fff url({{ ASSET_PATH }}/images/background.png) no-repeat top center;*/
+/*	background: url({{ ASSET_PATH }}/assets/images/background_footer-icons.png) 52% 90% repeat-x ; */
+/*	background: #fff url({{ ASSET_PATH }}/assets/images/background.png) no-repeat top center;*/
 
 }
 
@@ -476,7 +476,7 @@ footer a {
 	transform: rotateY(180deg);
 	
 
-/*	background: url({{ ASSET_PATH }}/images/newTeaser00-textBG.png) no-repeat bottom center;*/
+/*	background: url({{ ASSET_PATH }}/assets/images/newTeaser00-textBG.png) no-repeat bottom center;*/
 	
 	padding:15px 20px 15px 5px;
 	text-align:center;
