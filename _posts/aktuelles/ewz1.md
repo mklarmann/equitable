@@ -3,6 +3,8 @@ layout: post
 published: true
 category: 
   - aktuelles
+tagline: ewz.stattkino
+square: null
 ---
 
 ## ewz.stattkino 2014
