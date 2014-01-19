@@ -19,7 +19,7 @@ author :
 # prose.io configuration
 
 prose:
-  rooturl: '_posts/aktuelles/'
+  rooturl: '_posts/aktuelles'
   siteurl: 'https://equi-table.ch'
   relativeLinks: 'https://equi-table.ch/links.jsonp'
   media: 'assets/images/galerie'
