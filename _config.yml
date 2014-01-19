@@ -20,8 +20,8 @@ author :
 
 prose:
   rooturl: '_posts/aktuelles'
-  siteurl: 'https://equi-table.ch'
-  relativeLinks: 'https://equi-table.ch/links.jsonp'
+  siteurl: 'http://equi-table.ch'
+  relativeLinks: 'http://equi-table.ch/links.jsonp'
   media: 'assets/images/galerie'
   metadata:
     _posts:
