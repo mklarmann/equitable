@@ -3,7 +3,7 @@ layout: post
 category: 
   - galerie
 tagline: "Wie funktioniert das mit fairen Shrimps?"
-image: Food_Equitable_068.png
+image: galerie/Food_Equitable_068.png
 square: Food_Equitable_068_square.png
 published: true
 ---
