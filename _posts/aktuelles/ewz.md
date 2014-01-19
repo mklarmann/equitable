@@ -6,6 +6,7 @@ category:
 ---
 
 ## ewz.stattkino 2014
+![soulkitchenlogo](/assets/images/galerie/soulkitchen1.jpg)
 
 > 
 Am 23.02.2014 läuft Soulkitchen am ewz.stattkino in Zürich.
