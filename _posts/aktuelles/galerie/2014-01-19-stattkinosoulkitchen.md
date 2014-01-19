@@ -1,8 +1,8 @@
 ---
 layout: post
 published: true
-category: 
-  - aktuelles
+category: galerie
+square: ewz.stattkino1.jpg
 ---
 
 ###ewz.stattkino
