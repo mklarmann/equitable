@@ -3,6 +3,7 @@ layout: post
 published: true
 category: 
   - galerie
+  - news
 square: ewz.stattkino1.jpg
 ---
 
