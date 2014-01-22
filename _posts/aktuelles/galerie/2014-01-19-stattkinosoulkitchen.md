@@ -1,7 +1,8 @@
 ---
 layout: post
 published: true
-category: galerie
+category: 
+  - galerie
 square: ewz.stattkino1.jpg
 ---
 
@@ -10,6 +11,8 @@ square: ewz.stattkino1.jpg
 {% include JB/setup %}
 
 Am 23.02.2014 läuft Soulkitchen am ewz.stattkino in Zürich.
+
+
 
 Während des Films kocht Fabian Fuchs zusammen mit Patrick Zbinden. Sie kreieren dabei einen verheissungvollen «Duft-Soundtrack». Das kulinarische Ergebnis wird als kleines «Soulkitchen»-Häppchen in der Pause offeriert. Im zweiten Teil des Films inhaliert das Publikum süssen Backduft der aus zwei Backofentürmen entweichen wird. Das Backergebnis wird Euch den Nachhauseweg versüssen.
 
