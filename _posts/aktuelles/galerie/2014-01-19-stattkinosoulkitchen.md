@@ -3,7 +3,6 @@ layout: post
 published: true
 category: 
   - galerie
-  - aktuelles
 square: ewz.stattkino1.jpg
 ---
 
