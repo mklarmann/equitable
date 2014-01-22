@@ -1,10 +1,11 @@
 ---
 layout: post
-category: galerie
+category: 
+  - galerie
 tagline: "Wie funktioniert das mit fairen Shrimps?"
 image: galerie/Food_Equitable_068.png
 square: Food_Equitable_068_square.png
-published: true
+published: false
 ---
 
 {% include JB/setup %}
