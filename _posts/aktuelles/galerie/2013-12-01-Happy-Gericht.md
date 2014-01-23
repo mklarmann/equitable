@@ -5,7 +5,7 @@ category:
 tagline: "Wie funktioniert das mit fairen Shrimps?"
 image: galerie/Food_Equitable_068.png
 square: Food_Equitable_068_square.png
-published: false
+published: true
 ---
 
 {% include JB/setup %}
