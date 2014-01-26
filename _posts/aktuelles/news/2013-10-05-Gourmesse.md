@@ -3,7 +3,7 @@ layout: post
 published: true
 category: news
 title: Gourmesse 2013
-tagline: "Am Samstag, den 5.10., ist Equi-Table live in der Groumesse Showküche vertreten."
+tagline: "Am Samstag, den 5.10.2013, ist Equi-Table live in der Groumesse Showküche vertreten."
 image: 
 square: gourmesse_square.jpg
 ---

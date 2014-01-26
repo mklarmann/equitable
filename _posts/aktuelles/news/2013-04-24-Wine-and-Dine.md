@@ -6,7 +6,7 @@ tagline: Unsere Küche steht für den nachhaltigen Genuss
 published: true
 tagline: "Wine & Dine mit Delinat am Mittwoch, 24. April 2013 (19 Uhr)"
 image: 
-square: gourmesse_square.jpg
+square: wine_dine_square.jpg
 ---
 
 {% include JB/setup %}
