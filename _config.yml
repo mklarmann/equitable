@@ -23,7 +23,7 @@ author :
 # prose.io configuration
 
 prose:
-  rooturl: '_posts/'
+  rooturl: '_posts/aktuelles'
   siteurl: 'http://equi-table.ch'
   relativeLinks: 'http://equi-table.ch/links.jsonp'
   media: 'assets/images/galerie'
@@ -33,18 +33,19 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      # - name: "category"
-      #   field:
-      #     element: "multiselect"
-      #     label: "Add Categories"
-      #     placeholder: "Choose Tags"
-      #     options:
-      #       - name: "Food Story"
-      #         value: "galerie"
-      #       - name: "News"
-      #         value: "news"
-      #       - name: "Aktuelles"
-      #         value: "aktuelles"
+      - name: "category"
+        field:
+		  help: "Wähle hier auf welcher Seite der Eintrag erscheinen soll."
+          element: "select"
+          label: "Add Categories"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Food Story"
+              value: "galerie"
+            - name: "Aktuelles"
+              value: "news"
+            - name: "Presse"
+              value: "presse"
 
 
 
