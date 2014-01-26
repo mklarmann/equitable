@@ -479,6 +479,10 @@ footer a {
 
 /*	background: url({{ ASSET_PATH }}/assets/images/newTeaser00-textBG.png) no-repeat bottom center;*/
 	
+
+}
+
+.teaser-text {
 	padding:15px 20px 15px 5px;
 	text-align:center;
 }

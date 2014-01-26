@@ -106,7 +106,7 @@
 		  			<!-- front content -->
 					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser04-kueche.png" />
 		  		</div>
-		  		<div class="back">
+		  		<div class="back teaser-text">
 		  			<!-- back content -->
 				  <img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser00-textBG.png" style="position:absolute;top:0px;left:0px;z-index:-1;"/>
 				  
@@ -122,28 +122,35 @@
 		</div></a>
 		
 		  
-		<a href="{{ BASE_PATH }}/aktuelles/Galerie">
+		{% for more in site.categories['galerie'] limit:1  %}
+		<a href="{{ BASE_PATH }}{{ more.url }}/">
+		<!-- <a href="{{ BASE_PATH }}/restaurant/unsere-kueche"> -->
 		<div class="col-md-4">
 		  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 		  	<div class="flipper">
-		  		<div class="front">
-		  			<!-- front content -->
-					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser06-Galerie.png" />
-		  		</div>
 		  		<div class="back">
+		  			<!-- front content -->
+					<!-- <img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser04-kueche.png" /> -->
+					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/galerie/{{ more.square }}" />
+		  		</div>
+		  		<div class="front teaser-text">
 		  			<!-- back content -->
 				  <img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser00-textBG.png" style="position:absolute;top:0px;left:0px;z-index:-1;"/>
 				  
 				<div style="z-index:1;">
+				  <!-- <h2>Unsere Küche</h2>
+				  <p>Geniessen mit gutem Gewissen – unsere Küche legt höchsten Wert auf  biologische, fair gehandelte und regionale Produkte und vegetarische, klimafreundliche Gerichte.</p> -->
 								  		<img class="img-responsive" style="margin:auto" src="{{ ASSET_PATH }}/assets/images/trenner700.png" />
-				  <h2>Galerie</h2>
-				  <p>Das Auge isst mit. Lassen Sie sich von uns nicht nur geschmacklich, sondern auch optisch überzeugen.</p>
+					  <h2>Galerie</h2>
+					  <p><strong>{{ more.title }}</strong> {{ more.tagline }}</p>					
+
 				</div>
 				
 		  		</div>
 		  	</div>
 		  </div>
 		</div></a>
+		{% endfor %}
 		
 
 		<a href="{{ BASE_PATH }}/reservierung/Reservation">
@@ -154,7 +161,7 @@
 		  			<!-- front content -->
 					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser03-reservierung.png" />
 		  		</div>
-		  		<div class="back">
+		  		<div class="back teaser-text">
 		  			<!-- back content -->
 				  <img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser00-textBG.png" style="position:absolute;top:0px;left:0px;z-index:-1;"/>
 				  
@@ -182,11 +189,11 @@
 		<div class="col-md-4">
 		  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 		  	<div class="flipper">
-		  		<div class="front">
-		  			<!-- front content -->
-					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser01-karte.png" />
-		  		</div>
 		  		<div class="back">
+		  			<!-- front content -->
+					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser06-Galerie.png" />
+		  		</div>
+		  		<div class="front teaser-text">
 		  			<!-- back content -->
 				  <img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser00-textBG.png" style="position:absolute;top:0px;left:0px;z-index:-1;"/>
 				  
@@ -212,7 +219,7 @@
 		  			<!-- front content -->
 					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser02-team.png" />
 		  		</div>
-		  		<div class="back">
+		  		<div class="back teaser-text">
 		  			<!-- back content -->
 				  <img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser00-textBG.png" style="position:absolute;top:0px;left:0px;z-index:-1;"/>
 				  
@@ -228,29 +235,40 @@
 		</div></a>
 		
 	
-		
-		<a href="{{ BASE_PATH }}/aktuelles/aktuelles/">
+		{% for more in site.categories['news'] limit:1  %}
+		<a href="{{ BASE_PATH }}{{ more.url }}/">
+		<!-- <a href="{{ BASE_PATH }}/restaurant/unsere-kueche"> -->
 		<div class="col-md-4">
 		  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 		  	<div class="flipper">
-		  		<div class="front">
-		  			<!-- front content -->
-					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser05-aktuell.png" />
-		  		</div>
 		  		<div class="back">
+		  			<!-- front content -->
+					<!-- <img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser04-kueche.png" /> -->
+					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/galerie/{{ more.square }}" />
+		  		</div>
+		  		<div class="front teaser-text">
 		  			<!-- back content -->
 				  <img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser00-textBG.png" style="position:absolute;top:0px;left:0px;z-index:-1;"/>
 				  
 				<div style="z-index:1;">
+				  <!-- <h2>Unsere Küche</h2>
+				  <p>Geniessen mit gutem Gewissen – unsere Küche legt höchsten Wert auf  biologische, fair gehandelte und regionale Produkte und vegetarische, klimafreundliche Gerichte.</p> -->
+	
 								  		<img class="img-responsive" style="margin:auto" src="{{ ASSET_PATH }}/assets/images/trenner700.png" />
-				  <h2>Aktuelles</h2>
-				  <p>Am 23.2.14 kocht Fabian Fuchs zusammen mit Patrick Zbinden am ewz.stattkino in Zürich.</p>
+					  <h2>Aktuelles</h2>
+					  <p><strong>{{ more.title }}</strong> {{ more.tagline }}</p>
+					  			
+
 				</div>
 				
 		  		</div>
 		  	</div>
 		  </div>
 		</div></a>
+		{% endfor %}
+		
+
+	
 		
 		
 	  </div>
