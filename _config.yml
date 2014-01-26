@@ -23,8 +23,7 @@ author :
 # prose.io configuration
 
 prose:
-  rooturl: 
-	  - '_posts'
+  rooturl: '_posts/stories'
   siteurl: 'http://equi-table.ch'
   relativeLinks: 'http://equi-table.ch/links.jsonp'
   media: 'assets/images/galerie'
@@ -36,7 +35,7 @@ prose:
           value: "post"
       - name: "category"
         field:
-		  help: "Wähle hier auf welcher Seite der Eintrag erscheinen soll."
+	#	  help: "Wähle hier auf welcher Seite der Eintrag erscheinen soll."
           element: "select"
           label: "Add Categories"
           placeholder: "Choose Tags"
