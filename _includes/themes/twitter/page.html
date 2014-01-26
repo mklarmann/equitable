@@ -8,6 +8,25 @@
 		</div>
 		{% endif %}
 		
+		{% if page.image == null %}
+	
+		{% assign categories_list = page.category %}
+
+		{% if page.folder | size > 2 %}
+				{% assign categories_list = page.folder %}
+		{% endif %}
+	
+		{% for more in site.categories[categories_list] limit:1  %}
+			{% assign test_image = more.image %}
+		{% endfor %}
+	
+		{% if test_image  | size > 3 %}	
+		<div style="margin-left:-35px; margin-right:-35px;">
+			<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/{{ test_image }}"  />
+		</div>
+		{% endif %}
+		{% endif %}
+		
 		
 		<div class="popout-small">
 
