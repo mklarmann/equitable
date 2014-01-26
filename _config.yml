@@ -13,6 +13,7 @@ relative_permalinks: false
 # so be sure to set them if your theme uses them.
 #
 title : Restaurant Equi-Table
+square: no_square.png
 tagline: 
 author :
   name : Restaurant Equi-Table
@@ -35,7 +36,6 @@ prose:
           value: "post"
       - name: "category"
         field:
-	#	  help: "Wähle hier auf welcher Seite der Eintrag erscheinen soll."
           element: "select"
           label: "Add Categories"
           placeholder: "Choose Tags"
