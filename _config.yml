@@ -23,7 +23,7 @@ author :
 # prose.io configuration
 
 prose:
-  rooturl: '_posts/stories/'
+  rooturl: '_posts/stories'
   siteurl: 'http://equi-table.ch'
   relativeLinks: 'http://equi-table.ch/links.jsonp'
   media: 'assets/images/galerie'
