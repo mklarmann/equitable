@@ -74,7 +74,13 @@
 		  		<div class="front">
 		  			<!-- front content -->
 					<!-- <img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/newTeaser04-kueche.png" /> -->
-					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/galerie/{{ more.square }}" />
+					{% assign square_image = 'no_square.png' %}
+	
+					{% if more.square | size > 2 %}
+						{% assign square_image = more.square %}
+					{% endif %}
+					
+					<img class="img-responsive" src="{{ ASSET_PATH }}/assets/images/galerie/{{ square_image }}" />
 		  		</div>
 		  		<div class="back teaser-text">
 		  			<!-- back content -->
