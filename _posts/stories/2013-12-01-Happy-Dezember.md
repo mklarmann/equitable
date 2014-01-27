@@ -5,7 +5,7 @@ title: null
 tagline: "Das Auge isst mit. Lassen Sie sich nicht nur geschmacklich, sondern auch optisch überzeugen."
 image: galerie/Food_Equitable_068_1140.jpg
 square: Food_Equitable_068_square.png
-published: false
+published: true
 ---
 
 {% include JB/setup %}
