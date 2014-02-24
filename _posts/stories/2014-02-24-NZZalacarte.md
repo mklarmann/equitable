@@ -7,6 +7,8 @@ asset: null
 ---
 
 ## NZZ 
+NZZ a la carte.pdf
+
 
 
 
