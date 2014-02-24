@@ -1,11 +1,10 @@
 ---
 layout: post
 category: news
-title: Wine & Dine mit Delinat
-tagline: Unsere Küche steht für den nachhaltigen Genuss
-published: true
+title: "Wine & Dine mit Delinat"
 tagline: "Wine & Dine mit Delinat am Mittwoch, 24. April 2013 (19 Uhr)"
-image: 
+published: false
+image: null
 square: wine_dine_square.jpg
 ---
 
