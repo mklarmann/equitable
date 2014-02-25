@@ -2,6 +2,8 @@
 layout: post
 published: true
 category: news
+title: Unserer neuen Öffnungszeiten
+square: null
 ---
 
 ## Neue Öffnungszeiten
