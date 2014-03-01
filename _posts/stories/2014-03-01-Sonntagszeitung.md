@@ -4,11 +4,11 @@ published: true
 category: presse
 title: Sonntagszeitung
 tagline: "Pssst... Generalprobe"
-asset: "SZ Trend-jpg.jpg"
-square: "SZ Trend-jpg-square.jpg"
+asset: "SZTrend-jpg.jpg"
+square: "SZTrend-jpg-square.jpg"
 ---
 
 ## Sonntagszeitung
 
-![SZ Trend-jpg.jpg](/assets/images/galerie/SZ Trend-jpg.jpg)
+![SZ Trend-jpg.jpg](/assets/images/galerie/SZTrend-jpg.jpg)
 
