@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-category: galerie
+category: presse
 title: Tagesanzeiger
 tagline: "Der Irrtum"
 asset: "Tagesanzeiger-Magazin.jpg"
