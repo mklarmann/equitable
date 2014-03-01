@@ -1,9 +1,13 @@
 ---
 layout: post
-published: false
+published: true
 category: galerie
+title: Tagesanzeiger
+tagline: "Der Irrtum"
+asset: "Tagesanzeiger-Magazin.jpg"
+square: "Tagesanzeiger-Magazin_square.jpg"
+
 ---
 
 ## Tagesanzeiger „Magazin"
 
-![IMG_0002_2.jpg](/assets/images/galerie/IMG_0002_2.jpg)
