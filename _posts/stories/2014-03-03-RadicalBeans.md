@@ -4,10 +4,6 @@ published: true
 category: galerie
 ---
 
-
-![radicalbeans03.jpg](/assets/images/galerie/radicalbeans03.jpg)
-
-
 ###Das Besondere an Radical Beans
 Gegenüber den grossen Röstern geniessen Radical Beans die Freiheit, spezifisch auf die Wünsche und Vorlieben ihrer Kunden eingehen zu können, ohne sich dabei dem Druck von Export und Umsatz beugen zu müssen.
 Die Rösterei wird als Nebenbeschäftigung betrieben, dies dafür mit umso mehr Hingabe, Begeisterung und und Leidenschaft!
