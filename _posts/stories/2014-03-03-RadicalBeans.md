@@ -43,10 +43,3 @@ Die Bohnen, die Radical Beans rösten, sind Arabicabohnen; bei deren Auswahl wir
 - Leicht fruchtig und rauchig im Geschmack
 - item
 
-> We loved with a love that was more than love
-
-
-
-
-
-
