@@ -5,6 +5,8 @@ category: galerie
 ---
 
 ###Das Besondere an Radical Beans
+Lange waren Wir auf der Suche nach einem Geeigneten Kaffee für Uns im Equitable. Wir haben viel probiert und lange gesucht. Aber erst der Entscheidende Hinweis von [Patrick Zbinden](http://www.patrickzbinden.ch "Patrik Zbinden")(den meisten DRS3 Höhrern bekannt) hat uns auf [Radical Beans](http://www.radicalbeans.ch "Radical Beans")gebracht.
+
 Gegenüber den grossen Röstern geniessen Radical Beans die Freiheit, spezifisch auf die Wünsche und Vorlieben ihrer Kunden eingehen zu können, ohne sich dabei dem Druck von Export und Umsatz beugen zu müssen.
 Die Rösterei wird als Nebenbeschäftigung betrieben, dies dafür mit umso mehr Hingabe, Begeisterung und und Leidenschaft!
 Jede Bohne wird hier, in der Nähe von Zürich, gewissermassen noch «persönlich» und individuell für jeden einzelnen Kunden geröstet.
