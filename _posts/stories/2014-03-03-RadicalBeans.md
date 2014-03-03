@@ -34,6 +34,7 @@ Die Bohnen, die Radical Beans rösten, sind Arabicabohnen; bei deren Auswahl wir
 ![radicalbeans06.jpg](/assets/images/galerie/radicalbeans06.jpg)
 
 
+
 ###PUNK V3.0 «VOLL & RAUCHIG»
 - Anenehmer Duft
 - Exotisches Aroma
