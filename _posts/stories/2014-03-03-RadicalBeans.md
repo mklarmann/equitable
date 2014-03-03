@@ -15,3 +15,13 @@ Es werden nur die teuersten und besten Rohbohnen eingekauft und sortenrein gerö
 Seit dem 1. Januar 2012 ist unser Bio-Kaffee nun zusätzlich auch Fairtrade (Max Havelaar) zertifiziert; die beiden Sorten “Stachelbohne” und “Trompete” betrifft dies per sofort, mit dem nächsten Einkauf von Rohbohnen werden auch die Sorten “Route 66” und “Punk” nachziehen.
 Um die Qualität nach dem Rösten zu erhalten, werden die Bohnen zu 333g abgepackt.
 Die Bohnen, die Radical Beans rösten, sind Arabicabohnen; bei deren Auswahl wird streng auf einen geringen Säuregehalt geachtet, wodurch der Kaffee ohne Verlust der feinen Aromen verträglicher gemacht wird.
+![radicalbeans06.jpg](/assets/images/galerie/radicalbeans06.jpg)
+
+###PUNK V3.0 «VOLL & RAUCHIG»
+· Angenehmer Duft
+· Exotisches Aroma
+· Säurearm
+· Würzige-blumiger Körper
+· Leicht fruchtig und rauchig im Geschmack
+
+
