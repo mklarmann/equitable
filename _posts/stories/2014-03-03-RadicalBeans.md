@@ -2,7 +2,7 @@
 layout: post
 published: true
 category: galerie
-square:radicalbeans_square.png
+square: radicalbeans_square.png
 ---
 
 ###Das Besondere an Radical Beans
