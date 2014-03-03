@@ -7,7 +7,7 @@ square: radicalbeans_square.png
 image: /assets/images/galerie/radicalbeans_square.png
 ---
 
-![radicalbeans05.jpg](/assets/images/galerie/radicalbeans05.jpg)
+![radicalbeans_square.png](/assets/images/galerie/radicalbeans_square.png)
 
 ###Das Besondere an Radical Beans
 Lange waren Wir auf der Suche nach einem Geeigneten Kaffee für Uns im Equitable. Wir haben viel probiert und lange gesucht. Aber erst der Entscheidende Hinweis von [Patrick Zbinden](http://www.patrickzbinden.ch "Patrik Zbinden") (den meisten DRS3 Höhrern bekannt) hat uns auf [Radical Beans](http://www.radicalbeans.ch "Radical Beans") gebracht.
