@@ -5,11 +5,20 @@ category: galerie
 ---
 
 
-![1688142_660420914022070_1508453716_n.jpg](/assets/images/galerie/1688142_660420914022070_1508453716_n.jpg)
 
 ###**SOUL KITCHEN**Kulinarisch Interpretiert von Fabian Fuchs & Patrick Zbinden
 
 Während des Films kochte Fabian Fuchs zusammen mit Patrick Zbinden. Sie kreierten dabei einen verheissungvollen «Duft-Soundtrack». Das kulinarische Ergebnis wurde als kleines «Soulkitchen»-Häppchen in der Pause offeriert. Im zweiten Teil des Films inhalierte das Publikum süssen Backduft der aus zwei Backofentürmen entwichen wurde. Das Backergebnis hatte den Kinobesucher den Nachhauseweg versüsst.
+
+![soulkitchen03.jpg](/assets/images/galerie/soulkitchen03.jpg)
+![soulkitchen01.jpg](/assets/images/galerie/soulkitchen01.jpg)
+![soulkitchen06.jpg](/assets/images/galerie/soulkitchen06.jpg)
+![soulkitchen04.jpg](/assets/images/galerie/soulkitchen04.jpg)
+![soulkitchen07.jpg](/assets/images/galerie/soulkitchen07.jpg)
+![soulkitchen05.jpg](/assets/images/galerie/soulkitchen05.jpg)
+![soulkitchen02.jpg](/assets/images/galerie/soulkitchen02.jpg)
+![soulkitchen01.jpg](/assets/images/galerie/soulkitchen01.jpg)
+
 
 
 
