@@ -5,6 +5,7 @@ category: galerie
 ---
 
 
+![1688142_660420914022070_1508453716_n.jpg](/assets/images/galerie/1688142_660420914022070_1508453716_n.jpg)
 
 ###**SOUL KITCHEN**Kulinarisch Interpretiert von Fabian Fuchs & Patrick Zbinden
 
