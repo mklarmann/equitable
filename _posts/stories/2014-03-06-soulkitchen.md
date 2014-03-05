@@ -4,7 +4,8 @@ published: false
 category: galerie
 ---
 
-###**SOUL KITCHEN**
+###**SOUL KITCHEN**Kulinarisch Interpretiert von Fabian Fuchs & Patrick Zbinden
+
 
 ## A New Post
 
