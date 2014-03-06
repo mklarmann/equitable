@@ -2,6 +2,7 @@
 layout: post
 published: true
 category: galerie
+tagline: Kulinarisch interpretiert von Fabian Fuchs & Patrick Zbinden
 image: soulkitchen_1140.jpg
 square: ewz.stattkino1_square.jpg
 ---
