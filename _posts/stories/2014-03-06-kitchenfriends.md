@@ -12,6 +12,9 @@ Am 7. April ist Fabian Fuchs Gastkoch im Clouds in Zürich.
 
 zusammen Mit David Salvany Martinez, Jann Hoffmann und Tobias Buholzer kochen wir einen 4 Gänger. Jeder Koch ist für einen Gang verantwortlich
 
+![Flyer_KitchenFriends.jpg](/assets/images/galerie/Flyer_KitchenFriends.jpg)
+
+
 
 
 
