@@ -1,7 +1,10 @@
 ---
 layout: post
-published: false
+published: true
 category: news
+square: kitchenfriends_square.jpg
+tagline: Die einmalige Gelegenheit um sich im Frühling einen Höhenflug zu gönnen.
+image: galerie/Flyer_KitchenFriends_1140.jpg
 ---
 
 ###**4 FRIENDS & 1 WINEMAKER Montag 7. April 2014**
