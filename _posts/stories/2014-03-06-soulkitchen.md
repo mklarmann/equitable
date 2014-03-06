@@ -2,18 +2,10 @@
 layout: post
 published: true
 category: galerie
-<<<<<<< HEAD
-<<<<<<< HEAD
-image: ![Soulkitchen 1140](../../../Dropbox/equitable/_site/assets/images/galerie/soulkitchen_1140.jpg)
-=======
-image: soulkitchen_1140.jpg
-square: ewz.stattkino1_square.jpg
->>>>>>> FETCH_HEAD
-=======
 tagline: Kulinarisch interpretiert von Fabian Fuchs & Patrick Zbinden
-image: soulkitchen_1140.jpg
+image: galerie/soulkitchen_1140.jpg
 square: ewz.stattkino1_square.jpg
->>>>>>> FETCH_HEAD
+
 ---
 
 ###**SOUL KITCHEN**
