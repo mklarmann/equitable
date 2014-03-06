@@ -2,10 +2,7 @@
 layout: post
 published: true
 category: galerie
-<<<<<<< HEAD
-=======
 image: galerie/radicalbeans_1140.jpg
->>>>>>> FETCH_HEAD
 tagline: Die Kafferösterei Redical Beans verwedet nur die Besten Arabicabohnen der Welt.
 square: radicalbeans_square.png
 
