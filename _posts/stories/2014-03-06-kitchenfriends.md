@@ -15,8 +15,5 @@ zusammen Mit David Salvany Martinez, Jann Hoffmann und Tobias Buholzer kochen wi
 
 
 
-
-[Tickets](http://shop.e-guma.ch/clouds-zurich/de/gutscheine/15053/friends-and-wine  "Tickets Kitchen Friends")
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Jetzt Anmelden und rechzeitig 
+[Tickets](http://shop.e-guma.ch/clouds-zurich/de/gutscheine/15053/friends-and-wine  "Tickets Kitchen Friends") ergattern.
