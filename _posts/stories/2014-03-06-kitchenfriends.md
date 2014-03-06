@@ -4,15 +4,13 @@ published: false
 category: news
 ---
 
-###**Clouds Kitchen Friends**
 
-Am 7. April ist Fabian Fuchs Gastkoch im Clouds in Zürich.
 
-##4 Friends & 1 Winemaker
+###**4 FRIENDS & 1 WINEMAKER Montag 7. April 2014**
 
-zusammen Mit David Salvany Martinez, Jann Hoffmann und Tobias Buholzer kochen wir einen 4 Gänger. Jeder Koch ist für einen Gang verantwortlich
+Gemeinsam Mit David Salvany Martinez, [Jann Hoffmann](http://www.cafeboy.ch/site/ "Jann") und [Tobias Buholzer](http://www.muensterhof.com/de/gastgeber.html "Tobias") kochen wir einen 4 Gänger. Jeder Koch ist für einen Gang verantwortlich.
 
-![Flyer_KitchenFriends.jpg](/assets/images/galerie/Flyer_KitchenFriends.jpg)
+
 
 
 
