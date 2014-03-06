@@ -2,6 +2,8 @@
 layout: post
 published: true
 category: galerie
+image: soulkitchen_1140.jpg
+square: ewz.stattkino1_square.jpg
 ---
 
 ###**SOUL KITCHEN**
