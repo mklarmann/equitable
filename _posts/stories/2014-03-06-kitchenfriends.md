@@ -3,7 +3,8 @@ layout: post
 published: true
 category: news
 square: kitchenfriends_square.jpg
-tagline: Die einmalige Gelegenheit um sich im Frühling einen Höhenflug zu gönnen.
+tagline: 7.April
+Die einmalige Gelegenheit um sich im Frühling einen Höhenflug zu gönnen.
 image: galerie/Flyer_KitchenFriends_1140.jpg
 ---
 
