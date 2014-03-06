@@ -42,4 +42,3 @@ Die Bohnen, die Radical Beans rösten, sind Arabicabohnen; bei deren Auswahl wir
 - Säurearm
 - Würzige-blumiger Körper
 - Leicht fruchtig und rauchig im Geschmack
-- item
