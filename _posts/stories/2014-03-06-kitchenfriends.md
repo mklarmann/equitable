@@ -8,6 +8,10 @@ category: news
 
 Gemeinsam Mit [David Salvany Martinez](http://www.clouds.ch "David"), [Jann Hoffmann](http://www.cafeboy.ch/site/ "Jann") und [Tobias Buholzer](http://www.muensterhof.com/de/gastgeber.html "Tobias") kochen wir einen 4 Gänger. Jeder Koch ist für einen Gang verantwortlich.
 
+![Flyer_KitchenFriends1.jpg](/assets/images/galerie/Flyer_KitchenFriends1.jpg)
+![Flyer_KitchenFriends2.jpg](/assets/images/galerie/Flyer_KitchenFriends2.jpg)
+
+
 
 
 
