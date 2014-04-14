@@ -3,6 +3,7 @@ layout: post
 published: true
 category: news
 title: Der EquiTable – unser Mittagstisch
+tagline: Am Freitag, 25. April 2014, lädt Sie Küchenchef Fabian Fuchs erstmals an den ‘EquiTable’
 square: Mittagstisch_logo_square.jpg
 ---
 ## Der EquiTable – unser Mittagstisch
