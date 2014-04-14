@@ -2,8 +2,11 @@
 layout: post
 published: true
 category: news
-title: Dinner Jam Session
-Newcomers aus der Zürcher Gastroszene Montag, 5. Mai 2014
+title: Dinner Jam Session Newcomers aus der Zürcher Gastroszene Montag, 5. Mai 2014
 square: Dinner-jam-session_square.jpg
-asset: PUR_JamSession.pdf
+
 ---
+
+![PUR JamSession 5 Mai 2014c](../../assets/images/galerie/PUR_JamSession_5%20Mai_2014c.jpg)
+![PUR JamSession 2](../../assets/images/galerie/PUR_JamSession_2.jpg)
+![PUR JamSession 3](../../assets/images/galerie/PUR_JamSession_3.jpg)
