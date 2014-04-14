@@ -12,4 +12,5 @@ square: Dinner-jam-session_square.jpg
 ![PUR JamSession 2](../../assets/images/galerie/PUR_JamSession_2.jpg)
 ![PUR JamSession 3](../../assets/images/galerie/PUR_JamSession_3.jpg)
 
-Jetzt Anmelden: http://seedamm-plaza.ch/de/essen-ausgehen/pur
+Jetzt Anmelden und rechtzeitig
+[Tickets](http://seedamm-plaza.ch/de/essen-ausgehen/pur "Tickets Jam Session") ergattern.
