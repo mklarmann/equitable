@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 category: news
 title: Unserer neuen Öffnungszeiten
 square: oeffnungszeiten.png
