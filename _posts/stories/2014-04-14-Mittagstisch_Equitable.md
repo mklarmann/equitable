@@ -5,7 +5,7 @@ category: news
 title: Der EquiTable – unser Mittagstisch
 tagline: Am letzten Freitag im Monat
 square: mittagstisch_flyer_square.png
-image: mittagstisch_flyer_1140.png
+image: galerie/mittagstisch_flyer_1140.png
 ---
 ## Der EquiTable – unser Mittagstisch
 
