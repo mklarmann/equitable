@@ -10,7 +10,11 @@ square: skyline_zurich_square.png
 ## Zürisee-Fisch meets Zürisee-Wein
 
 Wir haben bereits unser Event vom 16. Juni 2014 ‘Zürichsee-Fisch meets Zürichsee-Wein’ angekündigt und können 
+<<<<<<< HEAD:_posts/stories/2014-06-16-Zürisee-fisch_meets_Zürisee-wein.md
 Ihnen nun noch eine besondere Attraktion anbieten: Patrick Marxer, "Das Pure" www.daspure.ch
+=======
+Ihnen nun noch eine besondere Attraktion anbieten: Patrick Marxer, "Das Pure" www.daspure.ch, 
+>>>>>>> FETCH_HEAD:_posts/stories/2014-06-16-Zürisee-fisch_meets_Zürisee-wein.md
 wird auf unserer Terrasse einen Teil des Tagesfangs räuchern und Ihnen über die nachhaltige Fischerei, 
 die Kunst der Veredelung und die fangfrischen Fische aus dem Zürichsee erzählen, 
 aus dem Ihnen Küchenchef Fabian Fuchs seine Kreationen aus Schwalen, Schleien, Wels und mehr präsentieren wird. 
