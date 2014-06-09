@@ -14,4 +14,5 @@ Das Restaurant EquiTable setzt mit dem neuen Mittagstisch ein weiteres Ausrufeze
 Abonnieren Sie den Newsletter, damit wir Sie über dieses und andere Events informieren können: <a href="mailto:news@equi-table.ch">news@equi-table.ch </a>
 
 
-galerie/equitable_Flyer_web_1.jpg
+
+![Equitable Flyer Web 1](../../assets/images/galerie/equitable_Flyer_web_1.jpg)
