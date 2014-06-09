@@ -3,11 +3,12 @@ layout: post
 published: true
 category: news
 title: Der EquiTable – unser Mittagstisch
-tagline: Am Freitag, 25. April 2014, lädt Sie Küchenchef Fabian Fuchs erstmals an den ‘EquiTable’
-square: Mittagstisch_logo_square.jpg
+tagline: Am letzten Freitag im Monat
+square: mittagstisch_flyer_square.png
+image: mittagstisch_flyer_1140.png
 ---
 ## Der EquiTable – unser Mittagstisch
 
-Am Freitag, 25. April 2014, lädt Sie Küchenchef Fabian Fuchs erstmals an den ‘EquiTable’. Unser Mittagstisch wird in Zukunft am letzten Freitag im Monat stattfinden. Er und sein Team werden Ihnen jeweils ein saisonales 3-Gang-Überraschungsmenü vorstellen, serviert an der gemeinsamen langen Tafel oder auf Wunsch auch an Ihrem separaten, persönlichen Tisch (bitte bei Reservation vermerken). Es wird zwei Menüs geben, Fleisch bzw. Fisch (Fr. 50.--) und Vegan (Fr. 45.--) Die Platzzahl ist auf 30 Plätze beschränkt. Ab 12 Uhr gehts los. Gerne nehmen wir ab sofort Ihre Reservation entgegen:<a href="mailto:reservation@equi-table.ch">reservation@equi-table.ch</a>
+Das Restaurant EquiTable setzt mit dem neuen Mittagstisch ein weiteres Ausrufezeichen. Jeweils am letzten Freitag im Monat lädt Küchenchef Fabian Fuchs an die gemeinsame lange Tafel, den EquiTable. Fabian Fuchs und sein Team servieren ein saisonales 3-Gang-Überraschungsmenü in zwei Varianten, Fleisch bzw. Fisch (Fr. 50.--) und Vegan (Fr. 45.--). Die Platzzahl ist auf 30 Plätze beschränkt.. Ab 12 Uhr gehts los. Gerne nehmen wir ab sofort Ihre Reservation entgegen:<a href="mailto:reservation@equi-table.ch">reservation@equi-table.ch</a>
 
 Abonnieren Sie den Newsletter, damit wir Sie über dieses und andere Events informieren können: <a href="mailto:news@equi-table.ch">news@equi-table.ch </a>
