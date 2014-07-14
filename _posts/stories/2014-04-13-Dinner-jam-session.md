@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 category: news
 title: Dinner Jam Session 
 tagline: Newcomers aus der Zürcher Gastroszene Montag, 5. Mai 2014
