@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 category: news
 title: Zürisee-Fisch meets Zürisee-Wein
 square: skyline_zurich_square.png
