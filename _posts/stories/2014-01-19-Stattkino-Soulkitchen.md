@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 category: news
 title: Soulkitchen
 tagline: "Am 23.2.14 kocht Fabian Fuchs zusammen mit Patrick Zbinden am ewz.stattkino in Zürich."
