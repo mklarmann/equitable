@@ -4,7 +4,7 @@ published: true
 category: presse
 title: Sonntagszeitung
 tagline: "Klassisch Molekular"
-asset: "sonntagsblickfrühling1.pdf"
+asset: assets/images/presse/soblfrühling1.pdf
 square: "sonntagsblickfrühlingsquare4.jpg"
 ---
 
