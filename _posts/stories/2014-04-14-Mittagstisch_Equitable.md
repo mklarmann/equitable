@@ -3,7 +3,7 @@ layout: post
 published: true
 category: news
 title: Der EquiTable – unser Mittagstisch
-tagline: Am letzten Freitag im Monat
+tagline: Am ersten und letzten Freitag im Monat
 square: mittagstisch_flyer_square.png
 image: galerie/mittagstisch_flyer_1140.png
 ---
