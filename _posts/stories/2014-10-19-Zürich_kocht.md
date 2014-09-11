@@ -16,3 +16,9 @@ Fabian Fuchs lädt zum vielseitigen Fischschmaus mit überraschenden und inspiri
 Fr.150.- pro Person inklusive Getränke
 
 reservation@equi-table.ch
+
+
+<a href="http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf>Ausschreibung Restaurantfachkraft (hier zum Download)</a>
+<object data="http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf type="application/pdf" class="col-md-11">
+<embed src=http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf  type="application/pdf" />
+</object>
