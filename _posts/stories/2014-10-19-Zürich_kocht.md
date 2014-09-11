@@ -7,7 +7,9 @@ tagline: "Sonntagslunch - Fische aus dem Zürichsee"
 square: zürichkocht_square.png
 ---
 
-[Flyer](http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf)
+[Flyer zum Download](http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf)
+
+
 ![zuri_kocht.png](/assets/images/galerie/zuri_kocht.png)
 
 Apéro und viergängiges Menü mit aussergewöhnlichen Gerichten mit Fischen aus dem Zürchersee.
