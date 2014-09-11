@@ -3,7 +3,7 @@ layout: post
 published: true
 category: news
 title: Zürich kocht by Schwarzenbach 
-tagline: Sonntagslunch: Fische aus dem Zürichsee
+tagline: Sonntagslunch - Fische aus dem Zürichsee
 square: zürichkocht_square.png
 
 ---
