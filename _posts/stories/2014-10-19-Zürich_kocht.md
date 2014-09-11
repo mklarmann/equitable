@@ -7,6 +7,12 @@ tagline: "Sonntagslunch - Fische aus dem Zürichsee"
 square: zürichkocht_square.png
 ---
 
+<a href="http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf>Ausschreibung Restaurantfachkraft (hier zum Download)</a>
+<object data="http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf type="application/pdf" class="col-md-11">
+<embed src=http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf  type="application/pdf" />
+</object>
+
+
 ![zuri_kocht.png](/assets/images/galerie/zuri_kocht.png)
 
 Apéro und viergängiges Menü mit aussergewöhnlichen Gerichten mit Fischen aus dem Zürchersee.
@@ -18,7 +24,3 @@ Fr.150.- pro Person inklusive Getränke
 reservation@equi-table.ch
 
 
-<a href="http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf>Ausschreibung Restaurantfachkraft (hier zum Download)</a>
-<object data="http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf type="application/pdf" class="col-md-11">
-<embed src=http://equi-table.ch/assets/Zurich-Koch_Flyer.pdf  type="application/pdf" />
-</object>
