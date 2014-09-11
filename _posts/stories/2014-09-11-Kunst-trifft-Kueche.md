@@ -1,7 +1,7 @@
 ---
 layout: post
-published: false
-category: news
+published: true
+category: galerie
 tagline: Am 30. Sept. ausgesuchte Weine degustieren
 square: "art-kitchen.png"
 image: galerie/Equitable_SN Invite2.jpeg
