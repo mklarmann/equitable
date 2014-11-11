@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 category: news
 title: Jetzt Aktien zeichen
 square: aktien_square.jpg
