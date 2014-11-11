@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 category: news
 title: Zürich kocht by Schwarzenbach
 tagline: "Sonntagslunch - Fische aus dem Zürichsee"
