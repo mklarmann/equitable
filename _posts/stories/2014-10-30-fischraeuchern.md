@@ -5,7 +5,7 @@ category: presse
 title: Hotellerie et Gastronomie Zeitung
 tagline: "Räuchern, was das Zeug hält"
 asset: "Raeuchern.pdf"
-square: "raeucherfisch-square.jpg"
+square: "raeucherfisch-square2.jpg"
 
 ---
 
