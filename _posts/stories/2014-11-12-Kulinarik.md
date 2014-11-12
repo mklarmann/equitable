@@ -12,4 +12,4 @@ square: Food_Equitable_068_square.png
 Essen.Food.Kulinarik.
 
 ![Avocado](../../assets/images/galerie/Avocado.jpg)
-
+![Milchreis](../../assets/images/galerie/milchreis.jpg)
