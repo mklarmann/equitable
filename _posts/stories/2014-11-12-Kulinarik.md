@@ -11,3 +11,5 @@ square: Food_Equitable_068_square.png
 ###**Unsere Kreationen**
 Essen.Food.Kulinarik.
 
+![Avocado](../../assets/images/galerie/Avocado.jpg)
+
