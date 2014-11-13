@@ -12,7 +12,7 @@ square: Food_Equitable_068_square.png
 Essen.Food.Kulinarik.
 
 ![Trueffel Dessert](../../assets/images/galerie/Trueffel_dessert.jpg)
-![TrüFfel1](../../assets/images/galerie/trüffel1.jpg)
+![Trueffel1](../../assets/images/galerie/trueffel1.jpg)
 ![Litschi Dessert](../../assets/images/galerie/litschi_dessert.jpg)
 ![Fischwurst](../../assets/images/galerie/fischwurst.jpg)
 ![Ente Suesskartoffel4](../../assets/images/galerie/ente_suesskartoffel4.jpg)
@@ -26,7 +26,6 @@ Essen.Food.Kulinarik.
 ![Herz](../../assets/images/galerie/herz.jpg)
 ![Saibling Reis Macha](../../assets/images/galerie/saibling_reis_macha.jpg)
 ![Tomaten Mozzarella](../../assets/images/galerie/Tomaten_mozzarella.jpg)
-![KüRbis Reh](../../assets/images/galerie/Kürbis_reh.jpg)
 ![Avocado](../../assets/images/galerie/Avocado.jpg)
 ![Milchreis](../../assets/images/galerie/milchreis.jpg)
 ![Avocado Rande](../../assets/images/galerie/avocado_rande.jpg)
