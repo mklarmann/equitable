@@ -3,15 +3,14 @@ layout: post
 published: true
 category: galerie
 tagline: Einblicke in unsere Kreationen
-image: 
+image: null
 square: Food_Equitable_068_square.png
-
 ---
 
 ###**Unsere Kreationen**
 Essen.Food.Kulinarik.
 
-![Trueffel Dessert](../../assets/images/galerie/Trueffel_dessert.jpg)
+![Trueffel Dessert](../../assets/images/galerie/Trueffel_dessert.jpg){: .col-lg-4 .col-md-4 .col-sm-6 .col-sm-6 .col-xs-8 }
 ![Trueffel1](../../assets/images/galerie/trueffel1.jpg)
 ![Litschi Dessert](../../assets/images/galerie/litschi_dessert.jpg)
 ![Fischwurst](../../assets/images/galerie/fischwurst.jpg)
