@@ -14,4 +14,4 @@ square: bestofswiss_square.jpg
 
 Hier gehts zum Link:
 
-http://www.bestofswissgastro.ch/guide/equi-table/
+[http://www.bestofswissgastro.ch](http://www.bestofswissgastro.ch)
