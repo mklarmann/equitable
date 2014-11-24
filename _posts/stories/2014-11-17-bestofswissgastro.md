@@ -8,8 +8,7 @@ square: bestofswiss_square.jpg
 
 ---
 
-## Best of Swiss Gastro 2015 - 
-3. Rang Trend
+## Best of Swiss Gastro 2015 - 3. Rang Trend
 
 
 Hier gehts zum Link:
