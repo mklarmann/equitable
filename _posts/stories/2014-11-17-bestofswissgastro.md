@@ -13,4 +13,4 @@ square: bestofswiss_square.jpg
 
 Hier gehts zum Link:
 
-[http://www.bestofswissgastro.ch](Best of Swiss Gastro)
+[Best of Swiss Gastro](http://www.bestofswissgastro.ch)
