@@ -12,4 +12,4 @@ square: gault_millau_2015_square.jpg
 
 Das Equi-Table bekommt Punkte zuwachs. Neu wir das Equi-Table im Gault Millau mit 14 Punkte ausgezeichnet.
 
-
+![Gault Millau](../../assets/images/galerie/Gault_millau.jpg)
